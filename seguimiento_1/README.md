@@ -49,6 +49,7 @@ El comando para ejecutar cada script:
 **Nota:**  en el comando reemplace “nombreScript” por cada uno de los nombres de los scripts y verifique que el entorno env este activado.
 
 **Interpretación en qualimap**
+
 Para conocer el numero de reads que sobrevivieron al filtrado de calidad luego del hacer la depuración de datos crudos se puede emplear el siguiente comando:
 <p align="center">
   <code>zcat data/trimmed/evol2_R1.trimmed.fastq.gz | wc -l | awk '{print $1/4}'</code>
