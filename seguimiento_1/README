@@ -4,7 +4,7 @@
 **Nota:** Para tener una mayor compresión del flujo de trabajo realizo, se sugiere observar la imagen así titulada del repositorio.
 
 **Paso 1.**  Desde su terminal, ubicado en el directorio home, cree una carpeta que se llame proyecto usando el siguiente código:
-                                                           **mkdir proyecto**
+                                                           "mkdir proyecto"
 
 **Paso 2.** Abra la carpeta proyecto y dentro de esta cree una carpeta llamada scripts, la cual usara para almacenar los scripts necesarios para ejecutar el proyecto. Use los siguientes códigos:
                                                             **cd proyecto**
