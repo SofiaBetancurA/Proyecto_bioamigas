@@ -20,7 +20,7 @@
   <code>mkdir scripts</code>
 </p>
 
-**Paso 3.**  Guarde en la carpeta scripts cada uno de los scripts adjuntados en la carpeta del repositorio denominada Scripts (env.yaml, 00_descargas.sh, 01_qcpre.sh, 02_trimmed.sh, 03_qcpost.sh, 04_ensamblaje.sh, 05_mapeo.sh) y otórgueles a los scripts el permiso para que sean ejecutables con el siguiente comando:
+**Paso 3.**  Guarde en la carpeta scripts cada uno de los scripts adjuntados en la carpeta del repositorio denominada Scripts (00_descargas.sh, 01_qcpre.sh, 02_trimmed.sh, 03_qcpost.sh, 04_ensamblaje.sh, 05_mapeo.sh) y otórgueles a los scripts el permiso para que sean ejecutables con el siguiente comando:
 <p align="center">
   <code>chmod +x ./scripts/*.sh</code>
 </p>
@@ -28,7 +28,7 @@
 **Nota:**  asegúrese de otorgar los permisos desde la carpeta proyecto.
 
 **Paso 4.** Crear y activar el entorno env.
-Descargue el archivo environment.yml en la carpeta proyecto, el cual contiene todas las herramientas necesarias para ejecutar los scripts como fastqc, multiqc, samtools, bwa, qualimap, quast, spades, etc. Luego ejecute el siguiente comando que creara el entorno env. 
+Descargue el archivo env.yaml (está en la carpeta Scripts del repositorio) en la carpeta proyecto, el cual contiene todas las herramientas necesarias para ejecutar los scripts como fastqc, multiqc, samtools, bwa, qualimap, quast, spades, etc. Luego ejecute el siguiente comando que creara el entorno env. 
  <p align="center">
    <code>conda env create -f environment.yml</code>
 </p>
