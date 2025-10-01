@@ -39,6 +39,7 @@ Y active el entorno con:
 </p>
 
 **Paso 5.** Ahora en la carpeta proyecto ejecute cada uno de los scripts con el siguiente comando, el orden en que debe de ejecutar cada uno de los scripts es el siguiente:
+
           1.	00_descargas.sh
           2.	01_qcpre.sh
           3.	02_trimmed.sh
