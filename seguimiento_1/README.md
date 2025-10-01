@@ -30,7 +30,7 @@
 **Paso 4.** Crear y activar el entorno env.
 Descargue el archivo env.yaml (está en la carpeta Scripts del repositorio) en la carpeta proyecto, el cual contiene todas las herramientas necesarias para ejecutar los scripts como fastqc, multiqc, samtools, bwa, qualimap, quast, spades, etc. Luego ejecute el siguiente comando que creara el entorno env. 
  <p align="center">
-   <code>conda env create -f environment.yml</code>
+   <code>conda env create -f env.yaml</code>
 </p>
 
 Y active el entorno con: 
