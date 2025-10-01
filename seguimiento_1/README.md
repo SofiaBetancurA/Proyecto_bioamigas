@@ -2,7 +2,8 @@
   <h1>README ENTREGA 1 PROYECTO BIOINFORMÁTICA</h1>
 </p>
 
-**Nota:** Para tener una mayor compresión del flujo de trabajo realizo, se sugiere observar la imagen así titulada del repositorio.
+![Diagrama de flujo]("C:\Users\andre\Downloads\Beige Neutral Flowchart Graph Template.png")
+
 
 **Paso 1.**  Desde su terminal, ubicado en el directorio home, cree una carpeta que se llame proyecto usando el siguiente código:
 <p align="center">
