@@ -2,7 +2,7 @@
   <h1>README ENTREGA 1 PROYECTO BIOINFORMÁTICA</h1>
 </p>
 
-![Diagrama de flujo]("https://github.com/SofiaBetancurA/Proyecto_bioamigas/blob/main/seguimiento_1/Diagrama%20de%20flujo%20del%20proceso.png")
+![Diagrama de flujo](https://github.com/SofiaBetancurA/Proyecto_bioamigas/blob/main/seguimiento_1/Diagrama%20de%20flujo%20del%20proceso.png?raw=true)
 
 
 **Paso 1.**  Desde su terminal, ubicado en el directorio home, cree una carpeta que se llame proyecto usando el siguiente código:
