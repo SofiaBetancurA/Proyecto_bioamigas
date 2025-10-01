@@ -2,6 +2,7 @@
   <h1>README ENTREGA 1 PROYECTO BIOINFORMÁTICA</h1>
 </p>
 
+**DIAGRAMA DE FLUJO DEL PROCESO**
 ![Diagrama de flujo](https://github.com/SofiaBetancurA/Proyecto_bioamigas/blob/main/seguimiento_1/Diagrama%20de%20flujo%20del%20proceso.png?raw=true)
 
 
