@@ -20,7 +20,7 @@
   <code>mkdir scripts</code>
 </p>
 
-**Paso 3.**  Guarde en la carpeta scripts cada uno de los scripts adjuntados (00_descargas.sh, 01_qcpre.sh, 02_trimmed.sh, 03_qcpost.sh, 04_ensamblaje.sh, 05_mapeo.sh) y otórgueles a los scripts el permiso para que sean ejecutables con el siguiente comando:
+**Paso 3.**  Guarde en la carpeta scripts cada uno de los scripts adjuntados en la carpeta del repositorio denominada Scripts (env.yaml, 00_descargas.sh, 01_qcpre.sh, 02_trimmed.sh, 03_qcpost.sh, 04_ensamblaje.sh, 05_mapeo.sh) y otórgueles a los scripts el permiso para que sean ejecutables con el siguiente comando:
 <p align="center">
   <code>chmod +x ./scripts/*.sh</code>
 </p>
