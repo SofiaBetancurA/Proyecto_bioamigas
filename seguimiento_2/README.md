@@ -18,13 +18,14 @@
 **Nota:** asegúrese de otorgar los permisos desde la carpeta proyecto.
 
 **Paso 3.** Usted deberá actualizar el entorno que fue creado para la entrega 1, para esto debe añadir los siguientes paquetes al archivo env.yaml:
-            ```yaml
+```
 - kraken2
 - bracken
 - krona
 - bcftools
 - prokka
 - snpEff
+
 Y luego desde su terminal, asegurándose que se encuentra desde la carpeta proyecto ejecute el siguiente comando para actualizar el entorno:
 <p align="center">
   <code>Conda update -f env.yaml</code>
