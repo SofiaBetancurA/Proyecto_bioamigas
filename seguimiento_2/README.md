@@ -10,3 +10,23 @@
   <code>cd proyecto</code>
 </p>
 
+**Paso 2.**  Abra la carpeta scripts que se encuentra dentro de la carpeta proyecto y guarde cada uno de los scripts adjuntados en la carpeta del repositorio denominada Scripts (06_clasificacion.sh, 07_llamado.sh, 08_anotacion.sh, 09_variantes.sh) y otórgueles a los scripts el permiso para que sean ejecutables con el siguiente comando:
+<p align="center">
+  <code>chmod +x ./scripts/*.sh</code>
+</p>
+
+**Nota:** asegúrese de otorgar los permisos desde la carpeta proyecto.
+
+**Paso 3.** Usted deberá actualizar el entorno que fue creado para la entrega 1, para esto debe añadir los siguientes paquetes al archivo env.yaml:
+            -kraken2
+            -bracken
+            -krona
+            -bcftools
+            -prokka
+            -snpEff
+Y luego desde su terminal, asegurándose que se encuentra desde la carpeta proyecto ejecute el siguiente comando para actualizar el entorno:
+<p align="center">
+  <code>Conda update -f env.yaml</code>
+</p>
+
+
