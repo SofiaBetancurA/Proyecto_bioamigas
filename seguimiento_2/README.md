@@ -70,7 +70,62 @@ Luego, utilice el siguiente comando y ejecútelo desde la terminal para construi
   <code>java -jar /home/biomajo/micromamba/envs/env/share/snpeff-5.3.0a-1/snpEff.jar build -gff3 -noCheckCds -noCheckProtein -v ancestro</code>
 </p>
 
-<p align="justify">
 Es importante tener en cuenta que en la parte del comando donde aparece esta parte de la ruta **/home/biomajo/micromamba/envs/env**, usted debe reemplazarla por la ruta exacta que obtuvo en el paso anterior, ya que esta puede variar dependiendo del computador y del usuario. Esto se debe a que la ubicación del entorno de micromamba cambia según el nombre del usuario y el sistema operativo.
+
+Una vez ejecutado este comando y completada la construcción de la base de datos del genoma, podrá volver a ejecutar el script con normalidad utilizando:
+
+<p align="center">
+  <code>./scripts/09_variantes.sh</code>
 </p>
+
+**Identificación de la cantidad de la cantidad de lecturas no mapeadas**
+
+Es importante conocer la cantidad de lecturas que no fueron mapeadas para realizar la clasificación taxonómica. Para esto, puede ejecutar el siguiente comando, asegurándose de encontrarse dentro de la carpeta mapeo, ubicada dentro de la carpeta proyecto, ya que allí se encuentran los archivos necesarios para este análisis:
+<p align="center">
+  <code>expr $(wc -l < evol2_unmapped_R1.fastq) / 4</code>
+</p>
+
+El comando anterior sirve para calcular cuántas lecturas contiene el archivo .fastq, donde:
+
+wc -l cuenta el número de líneas del archivo evol2_unmapped_R1.fastq.El operador < hace que el contenido del archivo se envíe directamente a wc, devolviendo únicamente el número total de líneas. Al estar esta parte encerrada entre $(), el comando primero ejecuta esa operación y luego reemplaza el resultado dentro del comando principal. Finalmente, expr evalúa la expresión aritmética (la división entre 4), ya que en los archivos FASTQ cada secuencia ocupa 4 líneas. Por lo tanto, al dividir el total de líneas entre 4 se obtiene el número exacto de lecturas.
+
+**Nota:** debe realizar este proceso tanto para los archivos R1 como R2 y sumar ambos resultados, ya que la suma representa el número total de lecturas no mapeadas.
+
+**Filtrado de variantes del archivo VCF obtenido en el script 09_variantes.sh según criterios de calidad e impacto:**
+
+Para hacer este filtrado se puede emplear el siguiente comando:
+<p align="center">
+  <code>awk '!/^#/ && $6 > 30 && $8 ~ /MODERATE/' variantes_snpeff_annot.vcf > variantes_moderate_Q30.vcf</code>
+</p>
+
+Donde awk ‘’ es una herramienta que permite leer archivos línea por línea y aplicar filtros sobre su contenido. 
+
+La parte del comando !/^#/ permite ignorar las primeras líneas del archivo .VCF, ya que estas comienzan con el carácter #, y de esta forma solo se procesan las líneas que contienen las variantes reales. 
+
+Luego, la expresión $6 > 30 busca dentro del archivo la columna 6, que corresponde al valor de calidad (QUAL) de cada variante, y selecciona únicamente aquellas con una calidad mayor a 30.la condición $8 ~ /MODERATE/ busca en la columna 8, donde se encuentra la información detallada de la anotación, incluyendo el impacto funcional, y selecciona únicamente las variantes cuyo impacto sea MODERATE.
+
+Finalmente, el comando redirige la información filtrada a un nuevo archivo llamado variantes_moderate_Q30.vcf.
+
+Este mismo procedimiento puede repetirse para obtener las variantes con impacto HIGH, cambiando la palabra MODERATE por HIGH dentro del comando, de la siguiente manera:
+
+<p align="center">
+  <code>awk '!/^#/ && $6 > 30 && $8 ~ /HIGH/' variantes_snpeff_annot.vcf > variantes_HIGH_Q30.vcf</code>
+</p>
+
+Una vez obtenidos los archivos del filtrado por calidad e impacto, con los siguientes comandos se pueden buscar las primeras 5 líneas para cada uno de los archivos y redireccionar los  resultados a otro archivo .VCF:
+
+**Impacto HIGH**
+<p align="center">
+  <code>grep -v '^##' resultados_variantes_interes/variantes_high_Q30.vcf | head -n 5 > resultados_variantes_interes/high_filtrado.vcf</code>
+</p>
+
+**Impacto MODERATE**
+<p align="center">
+  <code>grep -v '^##' resultados_variantes_interes/variantes_high_Q30.vcf | head -n 5 > resultados_variantes_interes/high_filtrado.vcf</code>
+</p>
+
+
+
+
+
 
