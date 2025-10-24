@@ -67,7 +67,8 @@ Primero, asegúrese de estar dentro de la carpeta del proyecto y de tener el ent
 Luego, utilice el siguiente comando y ejecútelo desde la terminal para construir manualmente la base de datos del genoma:
 
 <p align="center">
-  <code>java -jar <span style="color:red">/home/biomajo/micromamba/envs/env/</span>share/snpeff-5.3.0a-1/snpEff.jar build -gff3 -noCheckCds -noCheckProtein -v ancestro</code>
+  <code>java -jar 🚨 /home/biomajo/micromamba/envs/env/ 🚨share/snpeff-5.3.0a-1/snpEff.jar build -gff3 -noCheckCds -noCheckProtein -v ancestro</code>
 </p>
+
 
 
