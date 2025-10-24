@@ -25,7 +25,7 @@
 - bcftools
 - prokka
 - snpEff
-
+```
 Y luego desde su terminal, asegurándose que se encuentra desde la carpeta proyecto ejecute el siguiente comando para actualizar el entorno:
 <p align="center">
   <code>Conda update -f env.yaml</code>
