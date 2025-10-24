@@ -32,4 +32,16 @@ Y luego desde su terminal, asegurándose que se encuentra desde la carpeta proye
   <code>Conda update -f env.yaml</code>
 </p>
 
+Una vez se haya actualizado el entorno, actívelo con el siguiente comando:
+<p align="center">
+  <code>conda activate env</code>
+</p>
 
+**Paso 4.** Ahora en la carpeta proyecto ejecute cada uno de los scripts con el siguiente comando, el orden en que debe ejecutar cada uno de los scripts es el siguiente:
+<p align="center">
+  <pre><code>1.	06_clasificacion.sh
+2.	07_llamado.sh
+3.	08_anotacion.sh
+4.	09_variantes.sh
+</code></pre>
+</p>
