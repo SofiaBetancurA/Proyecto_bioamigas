@@ -70,6 +70,7 @@ Luego, utilice el siguiente comando y ejecútelo desde la terminal para construi
   <code>java -jar /home/biomajo/micromamba/envs/env/share/snpeff-5.3.0a-1/snpEff.jar build -gff3 -noCheckCds -noCheckProtein -v ancestro</code>
 </p>
 
+<p align="justify">
 Es importante tener en cuenta que en la parte del comando donde aparece esta parte de la ruta **/home/biomajo/micromamba/envs/env**, usted debe reemplazarla por la ruta exacta que obtuvo en el paso anterior, ya que esta puede variar dependiendo del computador y del usuario. Esto se debe a que la ubicación del entorno de micromamba cambia según el nombre del usuario y el sistema operativo.
-
+</p>
 
