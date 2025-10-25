@@ -112,17 +112,22 @@ Este mismo procedimiento puede repetirse para obtener las variantes con impacto 
   <code>awk '!/^#/ && $6 > 30 && $8 ~ /HIGH/' variantes_snpeff_annot.vcf > variantes_HIGH_Q30.vcf</code>
 </p>
 
-Una vez obtenidos los archivos del filtrado por calidad e impacto, con los siguientes comandos se pueden buscar las primeras 5 líneas para cada uno de los archivos y redireccionar los  resultados a otro archivo .VCF:
+Una vez obtenidos los archivos resultantes del filtrado por calidad e impacto, mediante el siguiente comando se eliminan las líneas que inician con “##”, se ordenan los datos según la columna 6 (que corresponde al valor de calidad) de mayor a menor utilizando sort, y posteriormente, con head -n 5, se seleccionan únicamente las cinco variantes con mayor valor de calidad. Finalmente, el resultado se redirige a un nuevo archivo con extensión .vcf
 
 **Impacto HIGH**
 <p align="center">
-  <code>grep -v '^##' resultados_variantes_interes/variantes_high_Q30.vcf | head -n 5 > resultados_variantes_interes/high_filtrado.vcf</code>
+  <code>grep -v "^##" resultados_variantes_interes/variantes_high_Q30.vcf | sort -k6,6nr | head -n 5 > resultados_variantes_interes/high_filtrado.vcf
+</code>
 </p>
 
 **Impacto MODERATE**
 <p align="center">
-  <code>grep -v '^##' resultados_variantes_interes/variantes_high_Q30.vcf | head -n 5 > resultados_variantes_interes/high_filtrado.vcf</code>
+  <code>grep -v "^##" resultados_variantes_interes/variantes_moderate_Q30.vcf | sort -k6,6nr | head -n 5 > resultados_variantes_interes/moderate_filtrado.vcf
+</code>
 </p>
+
+
+
 
 
 
