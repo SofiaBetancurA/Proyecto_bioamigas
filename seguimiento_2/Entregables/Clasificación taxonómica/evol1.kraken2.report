@@ -1,0 +1,87 @@
+ 12.40	94	94	U	0	unclassified
+ 87.60	664	1	R	1	root
+ 87.20	661	0	R1	131567	  cellular organisms
+ 82.85	628	2	D	2	    Bacteria
+ 81.27	616	0	P	1224	      Proteobacteria
+ 81.13	615	0	C	1236	        Gammaproteobacteria
+ 80.87	613	0	O	91347	          Enterobacterales
+ 80.87	613	576	F	543	            Enterobacteriaceae
+  4.62	35	1	G	561	              Escherichia
+  4.49	34	29	S	562	                Escherichia coli
+  0.26	2	2	S1	696406	                  Escherichia coli UMNK88
+  0.13	1	0	S1	37762	                  Escherichia coli B
+  0.13	1	1	S2	413997	                    Escherichia coli B str. REL606
+  0.13	1	1	S1	913091	                  Escherichia coli TW10598
+  0.13	1	1	S1	1038927	                  Escherichia coli O104:H4
+  0.13	1	0	G	590	              Salmonella
+  0.13	1	1	S	28901	                Salmonella enterica
+  0.13	1	0	G	544	              Citrobacter
+  0.13	1	0	G1	1344959	                Citrobacter freundii complex
+  0.13	1	1	S	67827	                  Citrobacter werkmanii
+  0.26	2	0	O	72274	          Pseudomonadales
+  0.26	2	0	F	468	            Moraxellaceae
+  0.26	2	0	G	469	              Acinetobacter
+  0.13	1	1	S	40215	                Acinetobacter junii
+  0.13	1	1	S	756892	                Acinetobacter indicus
+  0.13	1	0	C	28211	        Alphaproteobacteria
+  0.13	1	0	O	766	          Rickettsiales
+  0.13	1	0	F	942	            Anaplasmataceae
+  0.13	1	0	F1	952	              Wolbachieae
+  0.13	1	0	G	953	                Wolbachia
+  0.13	1	0	S	263437	                  Wolbachia endosymbiont of Culex quinquefasciatus
+  0.13	1	1	S1	570417	                    Wolbachia endosymbiont of Culex quinquefasciatus Pel
+  1.32	10	0	D1	1783272	      Terrabacteria group
+  0.92	7	0	P	201174	        Actinobacteria
+  0.92	7	0	C	1760	          Actinobacteria
+  0.92	7	0	O	85009	            Propionibacteriales
+  0.92	7	0	F	31957	              Propionibacteriaceae
+  0.92	7	0	G	1912216	                Cutibacterium
+  0.92	7	7	S	1747	                  Cutibacterium acnes
+  0.40	3	0	P	1239	        Firmicutes
+  0.40	3	0	C	91061	          Bacilli
+  0.26	2	0	O	1385	            Bacillales
+  0.26	2	0	F	90964	              Staphylococcaceae
+  0.26	2	0	G	1279	                Staphylococcus
+  0.13	1	1	S	1282	                  Staphylococcus epidermidis
+  0.13	1	1	S	1292	                  Staphylococcus warneri
+  0.13	1	0	O	186826	            Lactobacillales
+  0.13	1	0	F	1300	              Streptococcaceae
+  0.13	1	0	G	1301	                Streptococcus
+  0.13	1	1	S	1308	                  Streptococcus thermophilus
+  4.35	33	0	D	2759	    Eukaryota
+  4.35	33	0	D1	33154	      Opisthokonta
+  4.35	33	0	K	33208	        Metazoa
+  4.35	33	0	K1	6072	          Eumetazoa
+  4.35	33	0	K2	33213	            Bilateria
+  4.35	33	0	K3	33511	              Deuterostomia
+  4.35	33	0	P	7711	                Chordata
+  4.35	33	0	P1	89593	                  Craniata
+  4.35	33	0	P2	7742	                    Vertebrata
+  4.35	33	0	P3	7776	                      Gnathostomata
+  4.35	33	0	P4	117570	                        Teleostomi
+  4.35	33	0	P5	117571	                          Euteleostomi
+  4.35	33	0	P6	8287	                            Sarcopterygii
+  4.35	33	0	P7	1338369	                              Dipnotetrapodomorpha
+  4.35	33	0	P8	32523	                                Tetrapoda
+  4.35	33	0	P9	32524	                                  Amniota
+  4.35	33	0	C	40674	                                    Mammalia
+  4.35	33	0	C1	32525	                                      Theria
+  4.35	33	0	C2	9347	                                        Eutheria
+  4.35	33	0	C3	1437010	                                          Boreoeutheria
+  4.35	33	0	C4	314146	                                            Euarchontoglires
+  4.35	33	0	O	9443	                                              Primates
+  4.35	33	0	O1	376913	                                                Haplorrhini
+  4.35	33	0	O2	314293	                                                  Simiiformes
+  4.35	33	0	O3	9526	                                                    Catarrhini
+  4.35	33	0	O4	314295	                                                      Hominoidea
+  4.35	33	0	F	9604	                                                        Hominidae
+  4.35	33	0	F1	207598	                                                          Homininae
+  4.35	33	0	G	9605	                                                            Homo
+  4.35	33	33	S	9606	                                                              Homo sapiens
+  0.26	2	0	D	10239	  Viruses
+  0.26	2	0	D1	35237	    dsDNA viruses, no RNA stage
+  0.26	2	0	O	28883	      Caudovirales
+  0.26	2	0	F	10699	        Siphoviridae
+  0.26	2	0	F1	1910999	          Tunavirinae
+  0.26	2	0	G	187217	            T1virus
+  0.26	2	2	S	1921008	              Escherichia virus T1
