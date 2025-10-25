@@ -102,7 +102,7 @@ Donde awk ‘’ es una herramienta que permite leer archivos línea por línea 
 
 La parte del comando !/^#/ permite ignorar las primeras líneas del archivo .VCF, ya que estas comienzan con el carácter #, y de esta forma solo se procesan las líneas que contienen las variantes reales. 
 
-Luego, la expresión $6 > 30 busca dentro del archivo la columna 6, que corresponde al valor de calidad (QUAL) de cada variante, y selecciona únicamente aquellas con una calidad mayor a 30.la condición $8 ~ /MODERATE/ busca en la columna 8, donde se encuentra la información detallada de la anotación, incluyendo el impacto funcional, y selecciona únicamente las variantes cuyo impacto sea MODERATE.
+Luego, la expresión $6 > 30 busca dentro del archivo la columna 6, que corresponde al valor de calidad (QUAL) de cada variante, y selecciona únicamente aquellas con una calidad mayor a 30.La condición $8 ~ /MODERATE/ busca en la columna 8, donde se encuentra la información detallada de la anotación, incluyendo el impacto funcional, y selecciona únicamente las variantes cuyo impacto sea MODERATE.
 
 Finalmente, el comando redirige la información filtrada a un nuevo archivo llamado variantes_moderate_Q30.vcf.
 
