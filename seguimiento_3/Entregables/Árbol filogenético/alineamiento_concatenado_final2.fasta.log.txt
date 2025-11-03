@@ -1,0 +1,718 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    compumajo (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s alineamiento_concatenado_final2.fasta -m MFP -alrt 1000 -B 1000
+Seed:    156827 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Oct 31 07:56:20 2025
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file alineamiento_concatenado_final2.fasta ... Fasta format detected
+Reading fasta file: done in 0.0731133 secs using 26.91% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.173769 secs using 1.101% CPU
+Alignment has 202 sequences with 7035 columns, 5122 distinct patterns
+3841 parsimony-informative, 1330 singleton sites, 1864 constant sites
+WARNING: Some sequence names are changed as follows:
+NC_000913.3:c2339420-2336793 -> NC_000913.3_c2339420-2336793
+[Haemophilus]_felis_B0188_RS09430 -> _Haemophilus__felis_B0188_RS09430
+Buchnera_aphidicola_(Aphis_nerii)_D9V64_RS00915 -> Buchnera_aphidicola__Aphis_nerii__D9V64_RS00915
+NC_013967.1:1443314-1445902 -> NC_013967.1_1443314-1445902
+
+                                                                             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0072567 secs using 97.06% CPU
+   1  NC_000913.3_c2339420-2336793                                                  62.64%    passed     44.39%
+   2  Pusillimonas_sp._T7-7_PT7_RS06950                                             67.25%    failed      0.00%
+   3  Aliarcobacter_butzleri_7h1h_A7H1H_RS08450                                     63.28%    failed      0.00%
+   4  Erythrobacter_longus_EH31_RS01990                                             60.55%    failed      0.11%
+   5  Sphingobium_fuliginis_DFS08_RS03630                                           67.46%    failed      0.00%
+   6  Rhodobacter_capsulatus_FBT96_RS18405                                          61.02%    failed      0.00%
+   7  Serinicoccus_profundi_FA582_RS06570                                           64.73%    failed      0.00%
+   8  Gluconacetobacter_entanii_CFR72_RS06890                                       68.40%    failed      0.00%
+   9  Veillonella_tobetsuensis_VEI_RS08920                                          64.95%    failed      0.00%
+  10  Nocardia_asteroides_NBRC_15531_NCAST_RS18395                                  64.31%    failed      0.00%
+  11  Peptoniphilus_sp._BV3C26_HMPREF1253_RS01780                                   65.46%    failed      0.00%
+  12  Acaricomes_phytoseiuli_DSM_14247_C501_RS0104275                               62.52%    failed      0.00%
+  13  Effusibacillus_pohliae_DSM_22757_C230_RS0107410                               65.29%    failed      1.45%
+  14  Chryseobacterium_daeguense_DSM_19388_H560_RS0120325                           63.28%    failed      0.00%
+  15  Derxia_gummosa_DSM_723_H566_RS0107795                                         63.03%    failed      0.00%
+  16  Pseudorhizobium_banfieldiae_NT26_RS05680                                      67.89%    failed      0.00%
+  17  Mycoplasmopsis_canis_UFG4_MCANUFG4_RS02000                                    62.22%    failed      0.00%
+  18  Tepidimonas_ignava_Tigna_RS10370                                              62.60%    failed      0.00%
+  19  Sphingobium_sp._AP49_PMI04_RS01360                                            66.91%    failed      0.00%
+  20  Kangiella_sediminilitoris_KS2013_RS02775                                      68.14%    failed      0.00%
+  21  Leptolyngbya_sp._PCC_6406_LEP6406_RS0209300                                   64.05%    failed      0.00%
+  22  Novosphingobium_ginsenosidimutans_FRF71_RS13450                               61.19%    failed      0.00%
+  23  _Haemophilus__felis_B0188_RS09430                                             68.02%    failed      0.00%
+  24  Buchnera_aphidicola__Aphis_nerii__D9V64_RS00915                               64.18%    failed      0.00%
+  25  Nocardiopsis_chromatogenes_YIM_90109_D476_RS0111680                           64.56%    failed      0.00%
+  26  Cryobacterium_fucosi_E3T48_RS11760                                            64.65%    failed      0.00%
+  27  Pseudomonas_fluorescens_Pf29Arp_IC61_RS0113995                                67.80%    failed      0.00%
+  28  Synechococcus_sp._KORDI-100_KR100_RS05465                                     63.07%    failed      0.00%
+  29  Nioella_nitratireducens_BKY27_RS14115                                         60.98%    failed      0.00%
+  30  Lactiplantibacillus_mudanjiangensis_E0E27_RS01085                             63.71%    failed      0.00%
+  31  Anoxybacillus_suryakundensis_ASC42_RS05435                                    65.12%    failed      0.00%
+  32  Sphingomonas_psychrotolerans_CVN68_RS06925                                    68.14%    failed      0.00%
+  33  Candidatus_Saccharimonas_aalborgensis_L336_RS03530                            64.18%    failed      0.00%
+  34  Paenibacillus_sophorae_BMX71_RS22350                                          63.62%    failed      0.29%
+  35  Paenibacillus_sp._A3_QJ48_RS19470                                             64.69%    passed     87.26%
+  36  Salinimicrobium_sediminis_CRO16_RS08080                                       63.67%    failed      0.00%
+  37  Sphingorhabdus_contaminans_FOM92_RS04880                                      66.95%    failed      0.65%
+  38  Sphingomonas_naasensis_E5A74_RS01510                                          60.90%    failed      0.00%
+  39  Pseudoalteromonas_luteoviolacea_NCIMB_1944_N483_RS01695                       67.46%    failed      0.00%
+  40  Helicobacter_cetorum_C6H25_RS07795                                            64.65%    failed      0.00%
+  41  Bacillus_anthracis_CN907_RS09965                                              64.86%    failed      0.00%
+  42  Fervidicella_metallireducens_AeB_Q428_RS06385                                 65.12%    failed      0.00%
+  43  Halomonas_sp._BC04_Q427_RS04460                                               61.24%    failed      0.00%
+  44  Treponema_sp._C6A8_T530_RS0106525                                             64.31%    failed      0.00%
+  45  Marinobacter_similis_AU14_RS06355                                             67.38%    failed      0.00%
+  46  Caminibacter_pacificus_C6V80_RS03605                                          65.12%    failed      0.00%
+  47  Salinicoccus_sediminis_WN59_RS02230                                           65.71%    failed      0.00%
+  48  Vespertiliibacter_pulmonis_EDC46_RS01800                                      68.57%    failed      0.00%
+  49  Clostridium_haemolyticum_NCTC_8350_Z961_RS08595                               64.05%    failed      0.00%
+  50  Kitasatospora_azatica_KCTC_9699_BR98_RS22480                                  63.11%    failed      0.00%
+  51  Clostridium_oryzae_CLORY_RS12775                                              59.19%    failed      0.00%
+  52  Streptomyces_sp._NRRL_F-6131_IF39_RS0104355                                   65.16%    failed      0.00%
+  53  Streptomyces_sp._NRRL_S-646_IH68_RS0124775                                    63.11%    failed      0.00%
+  54  Shouchella_lonarensis_BLT29_RS04120                                           65.42%    failed      0.00%
+  55  Pantoea_coffeiphila_CQW29_RS03365                                             62.52%    failed      4.48%
+  56  Dendrosporobacter_quercicolus_BLR06_RS15410                                   65.37%    failed      0.00%
+  57  Helicobacter_saguini_LS64_RS09350                                             64.56%    failed      0.00%
+  58  Janthinobacterium_sp._344_BM193_RS13325                                       66.52%    failed      0.00%
+  59  Leminorella_richardii_FX055_RS13305                                           67.63%    failed      0.39%
+  60  Microtetraspora_malaysiensis_AWQ71_RS10815                                    64.05%    failed      0.00%
+  61  Pseudomonas_sp._NBRC_111124_APH28_RS10150                                     60.60%    failed      0.00%
+  62  Clostridiales_bacterium_SIT11_BN2668_RS05275                                  65.50%    failed      0.00%
+  63  Corynebacterium_aurimucosum_ADI99_RS05300                                     63.71%    failed      0.00%
+  64  Microbacterium_telephonicum_C7474_RS00665                                     63.20%    failed      0.00%
+  65  Nocardioides_sp._Leaf307_ASF50_RS10690                                        63.58%    failed      0.00%
+  66  Paenibacillus_sp._Soil750_ASL11_RS24600                                       65.29%    failed      0.00%
+  67  Sphingopyxis_sp._Root154_ASD73_RS05135                                        67.25%    failed      0.00%
+  68  Microbacterium_sp._Root180_ASD93_RS05515                                      65.03%    failed      0.00%
+  69  Cytobacillus_dafuensis_FSZ17_RS00035                                          64.09%    failed      0.00%
+  70  Mycobacterium_sp._GA-2829_AU194_RS11980                                       69.59%    failed      0.00%
+  71  Vibrio_profundi_ELZ11_RS03770                                                 62.52%    failed      0.00%
+  72  Acinetobacter_sp._CFCC_10889_AVJ19_RS06355                                    68.44%    failed      0.00%
+  73  Mycobacterium_scrofulaceum_A5681_RS21095                                      46.31%    failed      0.00%
+  74  Dictyoglomus_sp._ob1-4_AXA78_RS06030                                          65.54%    failed      0.00%
+  75  Thermoactinomyces_sp._AS95_AYX07_RS08560                                      65.07%    failed      0.15%
+  76  Mycobacterium_sp._1274756.6_A5643_RS14575                                     46.74%    failed      0.00%
+  77  Mycobacterium_sp._E1747_A5695_RS19510                                         46.27%    failed      0.00%
+  78  Brucella_sp._09RB8910_BKD02_RS11930                                           60.64%    failed      0.00%
+  79  Hymenobacter_nivis_EAH73_RS11405                                              61.19%    failed      0.00%
+  80  Fusobacterium_massiliense_FY437_RS03905                                       65.33%    failed      0.00%
+  81  Bacteroidales_bacterium_KHT7_BLS88_RS10810                                    63.71%    failed      0.00%
+  82  Sneathia_vaginalis_VC03_RS01570                                               65.16%    failed      0.00%
+  83  Cytobacillus_massiliigabonensis_C1726_RS15755                                 97.14%    failed      0.00%
+  84  Thermodesulfovibrio_sp._N1_THER_RS00860                                       64.73%    failed      0.00%
+  85  Microbacteriaceae_bacterium_BQ4139_RS02655                                    65.20%    failed      0.00%
+  86  Paenibacillus_elgii_AV654_RS14060                                             64.69%    passed     38.40%
+  87  Aeromicrobium_sp._PE09-221_BHE97_RS14130                                      64.95%    failed      0.00%
+  88  Clostridiales_bacterium_FXX85_RS00410                                         68.10%    failed      0.00%
+  89  Curtobacterium_sp._MCBA15_008_BIU96_RS05805                                   62.81%    failed      0.00%
+  90  Raoultibacter_timonensis_C1722_RS16175                                        60.77%    failed      0.00%
+  91  Hyphomicrobiales_bacterium_DUF12_RS10060                                      59.57%    failed      0.00%
+  92  Hyphomicrobiales_bacterium_DTX57_RS17545                                      60.17%    failed      0.00%
+  93  Hyphomicrobiales_bacterium_DUI55_RS18260                                      60.13%    failed      0.00%
+  94  Candidatus_Erwinia_haradaeae_E4V04_RS00625                                    62.94%    failed      0.00%
+  95  Dyella_choica_EKH80_RS02330                                                   68.14%    failed      0.00%
+  96  Sphingomonadaceae_bacterium_DKB74_RS17405                                     68.14%    failed      0.00%
+  97  Mucilaginibacter_limnophilus_EOD41_RS09730                                    62.56%    failed      0.00%
+  98  Micromonospora_sp._MH33_B0E53_RS22590                                         64.61%    failed      0.00%
+  99  Salinicola_aestuarinus_DOM41_RS17035                                          67.97%    failed      0.00%
+ 100  Abditibacterium_utsteinense_B1R32_RS07200                                     63.07%    passed     84.69%
+ 101  Macrococcus_hajekii_ERX37_RS03030                                             65.93%    failed      0.00%
+ 102  Pseudomonas_jinjuensis_BLR75_RS00050                                          60.81%    failed      0.00%
+ 103  Pseudomonas_trivialis_AA957_RS05955                                           62.05%    failed      0.00%
+ 104  Helicobacter_sp._11-8110_CCY98_RS00745                                        64.52%    failed      0.00%
+ 105  Dictyobacter_alpinus_EL633_RS18500                                            64.48%    failed      0.18%
+ 106  Sphingobium_sp._D43FB_SxD43FB_RS16335                                         67.46%    failed      0.00%
+ 107  Neopusillimonas_maritima_CJP73_RS14550                                        61.32%    failed      0.13%
+ 108  Halieaceae_bacterium_GJU78_RS02070                                            67.97%    failed      0.00%
+ 109  Puniceicoccaceae_bacterium_GN221_RS04825                                      70.49%    failed      0.00%
+ 110  Mycobacterium_neglectum_CSQ99_RS22930                                         64.35%    failed      0.00%
+ 111  Anaerolactibacter_massiliensis_C7E00_RS10205                                  64.35%    failed      0.00%
+ 112  Rhodobacteraceae_bacterium_4F10_CSC82_RS01155                                 66.70%    failed      0.30%
+ 113  Stenotrophomonas_sp._HMWF003_DBR34_RS17970                                    64.35%    failed      0.00%
+ 114  Selenomonas_massiliensis_C8273_RS00950                                        65.20%    failed      0.00%
+ 115  Chimaeribacter_coloradensis_CYR32_RS12505                                     62.35%    failed      0.00%
+ 116  Flavobacterium_sp._J27_CX675_RS18805                                          63.88%    failed      0.00%
+ 117  Tsukamurella_paurometabola_DYH47_RS17760                                      64.26%    failed      0.00%
+ 118  Burkholderia_sp._WAC0059_CY652_RS14380                                        62.90%    failed      0.00%
+ 119  Pectobacterium_peruviense_G033_RS01780                                        67.72%    passed      5.35%
+ 120  Emticicia_sp._TH156_C0V77_RS04400                                             62.81%    failed      0.00%
+ 121  Pontibacter_arcticus_DP923_RS08250                                            63.75%    failed      0.00%
+ 122  Candidatus_Nanoperiomorbus_periodonticus_G51EAM_RS02490                       62.86%    passed     12.13%
+ 123  Flavobacterium_sp._123_C8C88_RS00325                                          62.77%    failed      0.00%
+ 124  Variovorax_sp._KBW07_DBV14_RS00295                                            65.50%    failed      0.00%
+ 125  Sphingobacterium_corticibacter_DC487_RS12965                                  63.16%    failed      0.00%
+ 126  Saccharobesus_litoralis_C2869_RS05610                                         62.43%    failed      0.00%
+ 127  Candidatus_Marinamargulisbacteria_bacterium_SCGC_AG-439-L15_GO733_RS01840     64.48%    failed      0.00%
+ 128  Nonomuraea_lactucae_DQW85_RS20585                                             64.35%    failed      0.00%
+ 129  Breoghania_sp._L-A4_D1F64_RS09395                                             68.02%    failed      0.00%
+ 130  Tsuneonella_amylolytica_D4766_RS00125                                         59.62%    failed      0.00%
+ 131  Neoactinobaculum_massilliense_EIH27_RS07030                                   62.77%    failed      0.00%
+ 132  Elizabethkingia_meningoseptica_BMF97_RS08350                                  63.37%    failed      0.00%
+ 133  Enterococcus_florum_NRIC_RS01415                                              64.95%    failed      0.00%
+ 134  Leucobacter_sp._OH1287_EII30_RS04135                                          63.54%    failed      0.00%
+ 135  Bifidobacterium_xylocopae_CRD59_RS02720                                       61.71%    failed      0.00%
+ 136  Mesorhizobium_sp._M4B.F.Ca.ET.058.02.1.1_EJ073_RS06375                        67.97%    failed      0.00%
+ 137  Thermus_thermamylovorans_ETP66_RS05875                                        65.63%    failed      0.00%
+ 138  Rosistilla_oblonga_CA51_RS05145                                               61.62%    failed      0.00%
+ 139  Rubripirellula_tenax_Poly51_RS07160                                           61.45%    failed      0.10%
+ 140  Planctomycetes_bacterium_Poly30_Poly30_RS27465                                61.36%    failed      0.00%
+ 141  Tabrizicola_sp._YIM_78059_EZM81_RS13660                                       67.72%    failed      0.00%
+ 142  Jiangella_aurantiaca_E1262_RS02950                                            64.86%    failed      0.00%
+ 143  Chryseobacterium_indologenes_FE904_RS03835                                    63.03%    failed      0.00%
+ 144  Slackia_faecicanis_DMP07_RS08100                                              63.37%    failed      0.00%
+ 145  Pasteurella_sp._WM03_E4T92_RS03675                                            67.89%    failed      0.00%
+ 146  Streptomyces_sp._MZ04_E2651_RS10480                                           65.12%    failed      0.00%
+ 147  Gammaproteobacteria_bacterium_LSUCC0057_E3W66_RS02135                         63.20%    failed      0.00%
+ 148  Algoriphagus_kandeliae_E4S40_RS03970                                          62.86%    failed      0.00%
+ 149  Clostridium_sp._HBUAS56010_FAY33_RS01230                                      68.23%    failed      0.00%
+ 150  Rickettsia_typhi_str._Wilmington_RT_RS00985                                   61.36%    failed      0.00%
+ 151  Thiomicrorhabdus_sediminis_FE785_RS02010                                      68.32%    failed      0.00%
+ 152  Nocardioides_sambongensis_FIV43_RS03295                                       64.43%    failed      0.00%
+ 153  Formosa_sediminum_FNB79_RS16890                                               63.62%    failed      0.00%
+ 154  Candidatus_Phytoplasma_pini_MDPP_RS00290                                      64.05%    failed      0.00%
+ 155  Rhodoferax_fermentans_RF819_RS01585                                           65.97%    failed      0.00%
+ 156  Francisella_philomiragia_LA55_RS08470                                         63.11%    failed      0.00%
+ 157  Streptomyces_violaceorubidus_IE94_RS0109005                                   63.11%    failed      0.00%
+ 158  Comamonas_testosteroni_DZC30_RS08385                                          61.58%    failed      0.00%
+ 159  Xenorhabdus_ehlersii_BDE27_RS10140                                            62.69%    failed      0.00%
+ 160  Bizionia_myxarmorum_ES674_RS11510                                             61.96%    failed      0.00%
+ 161  Pseudomonas_fluorescens_F8N52_RS11320                                         67.80%    failed      0.00%
+ 162  Flavobacterium_pectinovorum_EAH81_RS04900                                     61.36%    failed      0.00%
+ 163  Rhodococcus_triatomae_BLQ89_RS19995                                           64.26%    failed      0.00%
+ 164  Wolbachia_endosymbiont_of_Drosophila_ananassae_EA652_RS05940                  61.49%    failed      0.00%
+ 165  Polaribacter_irgensii_23-P_PI23P_RS09095                                      60.85%    failed      0.00%
+ 166  Demequina_aestuarii_AOP72_RS12685                                             62.94%    failed      0.00%
+ 167  Anaerococcus_vaginalis_FXY83_RS06935                                          65.29%    failed      0.00%
+ 168  Haematobacter_genomosp._1_CDV49_RS16570                                       67.16%    failed      0.00%
+ 169  Pseudomonas_cichorii_D2G06_RS04465                                            60.47%    failed      0.00%
+ 170  Wigglesworthia_glossinidia_endosymbiont_of_Glossina_brevipalpis_WGL_RS02465   63.84%    failed      0.00%
+ 171  Helicobacter_anseris_CQA57_RS06555                                            64.90%    failed      0.00%
+ 172  Terribacillus_goriensis_GZ22_RS11300                                          64.22%    failed      0.00%
+ 173  Paraburkholderia_nodosa_BFD71_RS07515                                         62.90%    failed      0.00%
+ 174  Mycolicibacterium_duvalii_CRI77_RS14740                                       69.59%    failed      0.00%
+ 175  Mycolicibacterium_porcinum_A5717_RS03300                                      69.25%    failed      0.00%
+ 176  Dyadobacter_koreensis_BMY70_RS06870                                           60.60%    failed      0.00%
+ 177  Eubacterium_ventriosum_ATCC_27560_EUBVEN_RS06805                              63.71%    failed      0.00%
+ 178  Methylorubrum_salsuginis_BM140_RS14620                                        60.94%    failed      0.00%
+ 179  Mesorhizobium_tamadayense_EH240_RS34000                                       67.93%    failed      0.00%
+ 180  Modestobacter_versicolor_DMO24_RS15110                                        64.90%    failed      0.00%
+ 181  Kocuria_flava_AS188_RS02835                                                   61.79%    failed      0.00%
+ 182  Pseudarthrobacter_chlorophenolicus_A6_ACHL_RS00040                            62.60%    failed      0.00%
+ 183  Rhodobacter_aestuarii_BW967_RS08725                                           61.45%    failed      0.00%
+ 184  Flavobacterium_tiangeerense_IQ05_RS09620                                      61.79%    failed      0.00%
+ 185  Legionella_steigerwaltii_DYH40_RS07600                                        63.07%    failed      0.00%
+ 186  Microtetraspora_niveoalba_AWQ70_RS10795                                       64.43%    failed      0.00%
+ 187  Streptomyces_cyaneogriseus_subsp._noncyanogenus_TU94_RS16430                  63.11%    failed      0.00%
+ 188  Rhizobium_tubonense_CPY51_RS01390                                             67.97%    failed      0.00%
+ 189  Pseudomonas_sp._LD120_PLD_RS09200                                             62.05%    failed      0.00%
+ 190  Burkholderia_latens_WK25_RS04920                                              62.99%    failed      0.00%
+ 191  Gemmobacter_aquaticus_FQU74_RS08795                                           61.41%    failed      0.00%
+ 192  Arachidicoccus_ginsenosidivorans_FSB73_RS15840                                60.68%    failed      0.00%
+ 193  Micromonospora_endophytica_D3H59_RS09485                                      46.27%    failed      0.00%
+ 194  Denitrovibrio_acetiphilus_DSM_12809_DACET_RS14495                             64.65%    failed      0.00%
+ 195  Gardnerella_vaginalis_ATCC_14019_HMPREF0421_20619                             62.05%    failed      0.00%
+ 196  Neisseria_cinerea_ATCC_14685_NEICINOT_RS07995                                 67.25%    passed     10.88%
+ 197  Duganella_sacchari_BUA36_RS20620                                              62.39%    failed      0.00%
+ 198  Borreliella_turdi_DB707_RS01150                                               65.42%    failed      0.00%
+ 199  Thermovirga_lienii_DSM_17291_TLIE_RS01960                                     65.20%    failed      0.00%
+ 200  Glycomyces_tenuis_HY82_RS08445                                                64.90%    failed      0.00%
+ 201  Thiohalobacter_thiocyanaticus_D6C00_RS03475                                   67.97%    failed      0.00%
+ 202  NC_013967.1_1443314-1445902                                                   63.20%    failed      0.00%
+WARNING: 198 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                         64.09%  195 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.0093868 secs using 76.54% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.295 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 3.47822 secs using 99.65% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -397369.953
+Optimal log-likelihood: -397369.360
+Rate parameters:  A-C: 2.03463  A-G: 3.35556  A-T: 2.97026  C-G: 3.35160  C-T: 4.11812  G-T: 1.00000
+Base frequencies:  A: 0.251  C: 0.261  G: 0.283  T: 0.205
+Proportion of invariable sites: 0.019
+Gamma shape alpha: 1.301
+Parameters optimization took 1 rounds (1.054 sec)
+Time for fast ML tree search: 14.280 seconds
+
+NOTE: ModelFinder requires 355 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 7035 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            425745.972   401 852293.944   852342.550   855044.264
+  2  JC+I          422161.860   402 845127.719   845176.575   847884.898
+  3  JC+G4         402296.302   402 805396.604   805445.460   808153.782
+  4  JC+I+G4       401875.480   403 804556.960   804606.066   807320.997
+  5  JC+R2         406538.772   403 813883.545   813932.651   816647.582
+  6  JC+R3         402619.144   405 806048.287   806097.896   808826.042
+  7  JC+R4         401384.099   407 803582.199   803632.314   806373.671
+  8  JC+R5         401012.935   409 802843.870   802894.494   805649.059
+  9  JC+R6         400837.037   411 802496.074   802547.209   805314.981
+ 10  JC+R7         400769.415   413 802364.830   802416.478   805197.454
+ 11  JC+R8         400762.905   415 802355.811   802407.976   805202.152
+ 14  JC+I+R2       405496.588   404 811801.176   811850.534   814572.072
+ 15  JC+I+R3       402153.612   406 805119.224   805169.086   807903.837
+ 16  JC+I+R4       401220.280   408 803256.560   803306.929   806054.890
+ 17  JC+I+R5       400925.704   410 802671.407   802722.286   805483.455
+ 18  JC+I+R6       400791.892   412 802407.784   802459.175   805233.549
+ 19  JC+I+R7       400760.864   414 802349.728   802401.635   805189.211
+ 20  JC+I+R8       400757.206   416 802346.412   802398.837   805199.612
+ 32  JC+R7         400769.415   413 802364.830   802416.478   805197.454
+ 41  JC+I+R7       400760.864   414 802349.728   802401.635   805189.211
+ 54  F81+R7        400769.407   413 802364.813   802416.462   805197.437
+ 63  F81+I+R7      400760.811   414 802349.622   802401.529   805189.105
+ 76  F81+F+R7      399761.870   416 800355.740   800408.164   803208.940
+ 85  F81+F+I+R7    399751.956   417 800337.912   800390.596   803197.970
+ 98  K2P+R7        399484.010   414 799796.020   799847.927   802635.503
+107  K2P+I+R7      399474.390   415 799778.779   799830.944   802625.120
+120  K2P+R7        399484.010   414 799796.020   799847.927   802635.503
+129  K2P+I+R7      399474.389   415 799778.779   799830.944   802625.120
+142  HKY+R7        399484.001   414 799796.002   799847.908   802635.484
+151  HKY+I+R7      399474.382   415 799778.764   799830.929   802625.105
+164  HKY+F+R7      398453.701   417 797741.402   797794.087   800601.461
+173  HKY+F+I+R7    398442.863   418 797721.725   797774.670   800588.642
+186  TNe+R7        399479.723   415 799789.446   799841.611   802635.787
+195  TNe+I+R7      399470.224   416 799772.447   799824.871   802625.647
+208  TNe+R7        399479.723   415 799789.446   799841.611   802635.787
+217  TNe+I+R7      399470.224   416 799772.447   799824.871   802625.647
+230  TN+R7         399479.724   415 799789.448   799841.613   802635.789
+239  TN+I+R7       399470.222   416 799772.444   799824.868   802625.644
+252  TN+F+R7       398328.190   418 797492.381   797545.326   800359.298
+261  TN+F+I+R7     398314.861   419 797467.722   797520.928   800341.498
+274  K3P+R7        397789.397   415 796408.794   796460.959   799255.135
+283  K3P+I+R7      397780.709   416 796393.419   796445.843   799246.618
+296  K3P+R7        397789.397   415 796408.794   796460.959   799255.135
+305  K3P+I+R7      397780.709   416 796393.419   796445.843   799246.618
+318  K3Pu+R7       397789.386   415 796408.772   796460.937   799255.113
+327  K3Pu+I+R7     397780.681   416 796393.363   796445.787   799246.562
+340  K3Pu+F+R7     396876.683   418 794589.367   794642.312   797456.284
+349  K3Pu+F+I+R7   396867.247   419 794572.494   794625.700   797446.269
+362  TPM2+R7       399449.216   415 799728.431   799780.596   802574.772
+371  TPM2+I+R7     399438.797   416 799709.595   799762.019   802562.794
+384  TPM2+R7       399449.215   415 799728.431   799780.596   802574.772
+393  TPM2+I+R7     399438.797   416 799709.595   799762.019   802562.794
+406  TPM2u+R7      399449.209   415 799728.418   799780.583   802574.759
+415  TPM2u+I+R7    399438.786   416 799709.571   799761.996   802562.771
+428  TPM2u+F+R7    398451.563   418 797739.127   797792.072   800606.044
+437  TPM2u+F+I+R7  398440.821   419 797719.643   797772.849   800593.418
+450  TPM3+R7       398295.837   415 797421.674   797473.839   800268.015
+459  TPM3+I+R7     398286.021   416 797404.041   797456.466   800257.241
+472  TPM3+R7       398295.837   415 797421.674   797473.839   800268.015
+481  TPM3+I+R7     398286.021   416 797404.041   797456.466   800257.241
+494  TPM3u+R7      398295.807   415 797421.614   797473.779   800267.955
+503  TPM3u+I+R7    398285.977   416 797403.953   797456.377   800257.153
+516  TPM3u+F+R7    398090.739   418 797017.478   797070.423   799884.395
+525  TPM3u+F+I+R7  398081.844   419 797001.688   797054.894   799875.463
+538  TIMe+R7       397785.648   416 796403.296   796455.721   799256.496
+547  TIMe+I+R7     397777.052   417 796388.103   796440.788   799248.162
+560  TIMe+R7       397785.648   416 796403.296   796455.721   799256.496
+569  TIMe+I+R7     397777.052   417 796388.103   796440.788   799248.162
+582  TIM+R7        397785.608   416 796403.216   796455.641   799256.416
+591  TIM+I+R7      397777.007   417 796388.015   796440.699   799248.073
+604  TIM+F+R7      396750.606   419 794339.212   794392.418   797212.987
+613  TIM+F+I+R7    396739.307   420 794318.615   794372.083   797199.249
+626  TIM2e+R7      399444.898   416 799721.796   799774.221   802574.996
+635  TIM2e+I+R7    399434.620   417 799703.241   799755.925   802563.299
+648  TIM2e+R7      399444.898   416 799721.796   799774.220   802574.996
+657  TIM2e+I+R7    399434.620   417 799703.241   799755.925   802563.299
+670  TIM2+R7       399444.895   416 799721.790   799774.214   802574.989
+679  TIM2+I+R7     399434.612   417 799703.223   799755.907   802563.281
+692  TIM2+F+R7     398326.454   419 797490.908   797544.114   800364.683
+701  TIM2+F+I+R7   398313.090   420 797466.181   797519.649   800346.815
+714  TIM3e+R7      398295.365   416 797422.729   797475.153   800275.929
+723  TIM3e+I+R7    398285.595   417 797405.191   797457.875   800265.249
+736  TIM3e+R7      398295.365   416 797422.729   797475.153   800275.929
+745  TIM3e+I+R7    398285.595   417 797405.191   797457.875   800265.249
+758  TIM3+R7       398295.323   416 797422.647   797475.071   800275.846
+767  TIM3+I+R7     398285.542   417 797405.083   797457.767   800265.141
+780  TIM3+F+R7     397942.782   419 796723.564   796776.770   799597.339
+789  TIM3+F+I+R7   397932.838   420 796705.677   796759.145   799586.311
+802  TVMe+R7       396621.694   417 794077.387   794130.072   796937.446
+811  TVMe+I+R7     396611.764   418 794059.528   794112.473   796926.445
+824  TVMe+R7       396621.694   417 794077.387   794130.072   796937.446
+833  TVMe+I+R7     396611.764   418 794059.528   794112.473   796926.445
+846  TVM+R7        396621.664   417 794077.327   794130.012   796937.386
+855  TVM+I+R7      396611.725   418 794059.451   794112.396   796926.368
+868  TVM+F+R7      396383.546   420 793607.092   793660.560   796487.726
+877  TVM+F+I+R7    396375.471   421 793592.942   793646.673   796480.435
+890  SYM+R7        396621.568   418 794079.136   794132.081   796946.053
+899  SYM+I+R7      396611.596   419 794061.193   794114.399   796934.969
+912  SYM+R7        396621.568   418 794079.136   794132.081   796946.053
+921  SYM+I+R7      396611.596   419 794061.193   794114.399   796934.969
+934  GTR+R7        396621.533   418 794079.066   794132.011   796945.983
+943  GTR+I+R7      396611.584   419 794061.167   794114.374   796934.943
+956  GTR+F+R7      396238.727   421 793319.453   793373.184   796206.946
+965  GTR+F+I+R7    396229.857   422 793303.715   793357.709   796198.066
+Akaike Information Criterion:           GTR+F+I+R7
+Corrected Akaike Information Criterion: GTR+F+I+R7
+Bayesian Information Criterion:         GTR+F+I+R7
+Best-fit model: GTR+F+I+R7 chosen according to BIC
+
+All model information printed to alineamiento_concatenado_final2.fasta.model.gz
+CPU time for ModelFinder: 3028.062 seconds (0h:50m:28s)
+Wall-clock time for ModelFinder: 3043.077 seconds (0h:50m:43s)
+Generating 1000 samples for ultrafast bootstrap (seed: 156827)...
+
+NOTE: 254 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -396229.857
+Optimal log-likelihood: -396229.836
+Rate parameters:  A-C: 2.01476  A-G: 3.33153  A-T: 2.99815  C-G: 3.35516  C-T: 4.18691  G-T: 1.00000
+Base frequencies:  A: 0.251  C: 0.261  G: 0.283  T: 0.205
+Proportion of invariable sites: 0.017
+Site proportion and rates:  (0.044,0.035) (0.055,0.132) (0.086,0.276) (0.123,0.503) (0.200,0.813) (0.237,1.280) (0.238,1.847)
+Parameters optimization took 1 rounds (3.976 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.477247 secs using 99.15% CPU
+Computing ML distances took 0.498566 sec (of wall-clock time) 0.494527 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0025202 secs using 258% CPU
+Constructing RapidNJ tree: done in 0.0031954 secs using 99.96% CPU
+Computing RapidNJ tree took 0.005953 sec (of wall-clock time) 0.009904 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -397258.279
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 22.719 second
+Computing log-likelihood of 98 initial trees ... 66.184 seconds
+Current best score: -396229.836
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 3.47007 secs using 100% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -396228.358
+Optimizing NNI: done in 9.95344 secs using 99.76% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -396179.705
+Optimizing NNI: done in 13.6954 secs using 99.97% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -395934.909
+Optimizing NNI: done in 12.9617 secs using 99.85% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -395767.786
+Optimizing NNI: done in 10.5124 secs using 99.85% CPU
+Optimizing NNI: done in 11.8599 secs using 99.7% CPU
+Optimizing NNI: done in 12.6039 secs using 99.59% CPU
+Optimizing NNI: done in 10.9796 secs using 99.89% CPU
+Optimizing NNI: done in 9.93571 secs using 99.72% CPU
+Optimizing NNI: done in 13.2827 secs using 99.64% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -395580.683
+Iteration 10 / LogL: -395580.683 / Time: 0h:55m:15s
+Optimizing NNI: done in 11.2706 secs using 99.75% CPU
+Optimizing NNI: done in 12.2227 secs using 99.64% CPU
+Optimizing NNI: done in 11.3811 secs using 99.65% CPU
+Optimizing NNI: done in 10.502 secs using 99.77% CPU
+Optimizing NNI: done in 13.5645 secs using 99.68% CPU
+Optimizing NNI: done in 13.5109 secs using 99.79% CPU
+Optimizing NNI: done in 14.4314 secs using 99.56% CPU
+Optimizing NNI: done in 13.0462 secs using 99.75% CPU
+Optimizing NNI: done in 12.0566 secs using 99.73% CPU
+Optimizing NNI: done in 12.3497 secs using 99.77% CPU
+Iteration 20 / LogL: -396026.866 / Time: 0h:57m:21s
+Finish initializing candidate tree set (20)
+Current best tree score: -395580.683 / CPU time: 387.709
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 10.1838 secs using 99.72% CPU
+Optimizing NNI: done in 15.8327 secs using 99.54% CPU
+Optimizing NNI: done in 14.5775 secs using 99.36% CPU
+Optimizing NNI: done in 9.47086 secs using 99.62% CPU
+Optimizing NNI: done in 9.0918 secs using 99.52% CPU
+Optimizing NNI: done in 10.1551 secs using 99.74% CPU
+Optimizing NNI: done in 11.9378 secs using 99.69% CPU
+Optimizing NNI: done in 7.8656 secs using 99.8% CPU
+Optimizing NNI: done in 8.32208 secs using 99.66% CPU
+Optimizing NNI: done in 11.4506 secs using 99.75% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -395561.268
+Iteration 30 / LogL: -395561.268 / Time: 0h:59m:18s (0h:29m:38s left)
+Optimizing NNI: done in 9.17624 secs using 99.77% CPU
+Optimizing NNI: done in 10.1978 secs using 99.81% CPU
+Optimizing NNI: done in 9.77554 secs using 99.51% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -395559.216
+Optimizing NNI: done in 10.1832 secs using 99.61% CPU
+Optimizing NNI: done in 8.4556 secs using 99.82% CPU
+Optimizing NNI: done in 8.12981 secs using 99.9% CPU
+Optimizing NNI: done in 9.98052 secs using 99.92% CPU
+Optimizing NNI: done in 9.56296 secs using 99.83% CPU
+Optimizing NNI: done in 10.7901 secs using 99.81% CPU
+Optimizing NNI: done in 11.1795 secs using 99.86% CPU
+Iteration 40 / LogL: -395571.560 / Time: 1h:1m:6s (0h:24m:45s left)
+Optimizing NNI: done in 8.82318 secs using 99.86% CPU
+Optimizing NNI: done in 9.01888 secs using 99.73% CPU
+Optimizing NNI: done in 10.3258 secs using 99.77% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -395550.527
+Optimizing NNI: done in 8.42803 secs using 99.76% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -395547.432
+Optimizing NNI: done in 9.61845 secs using 99.58% CPU
+Optimizing NNI: done in 8.94801 secs using 99.87% CPU
+Optimizing NNI: done in 9.33674 secs using 99.74% CPU
+Optimizing NNI: done in 8.92906 secs using 99.69% CPU
+Optimizing NNI: done in 9.435 secs using 99.79% CPU
+Optimizing NNI: done in 7.99616 secs using 99.85% CPU
+Iteration 50 / LogL: -395572.604 / Time: 1h:2m:57s (0h:23m:28s left)
+Log-likelihood cutoff on original alignment: -395712.936
+Optimizing NNI: done in 7.87715 secs using 99.64% CPU
+Optimizing NNI: done in 7.45542 secs using 99.62% CPU
+Optimizing NNI: done in 8.01902 secs using 99.85% CPU
+Optimizing NNI: done in 7.13797 secs using 99.72% CPU
+Optimizing NNI: done in 10.4541 secs using 99.69% CPU
+Optimizing NNI: done in 7.58196 secs using 99.9% CPU
+Optimizing NNI: done in 7.77167 secs using 99.54% CPU
+Optimizing NNI: done in 9.03903 secs using 99.82% CPU
+Optimizing NNI: done in 8.78158 secs using 99.54% CPU
+Optimizing NNI: done in 7.68408 secs using 99.84% CPU
+Iteration 60 / LogL: -395582.685 / Time: 1h:4m:21s (0h:19m:24s left)
+Optimizing NNI: done in 7.68409 secs using 99.64% CPU
+Optimizing NNI: done in 9.5988 secs using 99.83% CPU
+Optimizing NNI: done in 9.66494 secs using 99.71% CPU
+Optimizing NNI: done in 8.04643 secs using 99.85% CPU
+Optimizing NNI: done in 8.17868 secs using 99.66% CPU
+Optimizing NNI: done in 7.2924 secs using 99.7% CPU
+Optimizing NNI: done in 7.40861 secs using 99.89% CPU
+Optimizing NNI: done in 8.11305 secs using 99.36% CPU
+Optimizing NNI: done in 6.73236 secs using 99.94% CPU
+Optimizing NNI: done in 8.71227 secs using 99.72% CPU
+Iteration 70 / LogL: -395557.287 / Time: 1h:5m:43s (0h:16m:5s left)
+Optimizing NNI: done in 10.516 secs using 99.85% CPU
+Optimizing NNI: done in 9.17563 secs using 99.7% CPU
+Optimizing NNI: done in 7.9901 secs using 99.85% CPU
+Optimizing NNI: done in 7.98998 secs using 99.8% CPU
+Optimizing NNI: done in 8.20229 secs using 99.66% CPU
+Optimizing NNI: done in 7.0419 secs using 99.83% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 76: -395536.163
+Optimizing NNI: done in 13.5589 secs using 99.64% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -395534.924
+Optimizing NNI: done in 9.27329 secs using 99.52% CPU
+Optimizing NNI: done in 8.70597 secs using 99.54% CPU
+Optimizing NNI: done in 9.7536 secs using 99.75% CPU
+Iteration 80 / LogL: -395538.943 / Time: 1h:7m:32s (0h:20m:39s left)
+Optimizing NNI: done in 10.3172 secs using 99.61% CPU
+Optimizing NNI: done in 7.83437 secs using 99.85% CPU
+Optimizing NNI: done in 8.10246 secs using 99.75% CPU
+Optimizing NNI: done in 7.97408 secs using 99.75% CPU
+Optimizing NNI: done in 7.5438 secs using 99.73% CPU
+Optimizing NNI: done in 7.94926 secs using 99.8% CPU
+Optimizing NNI: done in 9.84343 secs using 99.62% CPU
+Optimizing NNI: done in 7.47923 secs using 99.84% CPU
+Optimizing NNI: done in 7.07424 secs using 99.77% CPU
+Optimizing NNI: done in 7.68473 secs using 99.84% CPU
+Iteration 90 / LogL: -395538.485 / Time: 1h:8m:55s (0h:17m:47s left)
+Optimizing NNI: done in 8.94362 secs using 99.73% CPU
+Optimizing NNI: done in 8.19044 secs using 99.85% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 92: -395530.341
+Optimizing NNI: done in 6.95123 secs using 99.65% CPU
+Optimizing NNI: done in 7.3539 secs using 99.89% CPU
+Optimizing NNI: done in 7.09154 secs using 99.78% CPU
+Optimizing NNI: done in 8.2825 secs using 99.66% CPU
+Optimizing NNI: done in 11.1852 secs using 99.71% CPU
+Optimizing NNI: done in 8.10099 secs using 99.6% CPU
+Optimizing NNI: done in 9.16548 secs using 99.69% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 99: -395527.971
+Optimizing NNI: done in 8.74825 secs using 99.68% CPU
+Iteration 100 / LogL: -395530.320 / Time: 1h:10m:37s (0h:19m:54s left)
+Log-likelihood cutoff on original alignment: -395708.049
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.986
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Optimizing NNI: done in 9.49561 secs using 99.72% CPU
+Optimizing NNI: done in 8.40135 secs using 99.76% CPU
+Optimizing NNI: done in 8.04871 secs using 99.8% CPU
+Optimizing NNI: done in 8.80387 secs using 99.54% CPU
+Optimizing NNI: done in 7.68911 secs using 99.79% CPU
+Optimizing NNI: done in 8.14791 secs using 99.8% CPU
+Optimizing NNI: done in 8.65635 secs using 99.86% CPU
+Optimizing NNI: done in 7.78636 secs using 99.74% CPU
+Optimizing NNI: done in 8.63311 secs using 99.68% CPU
+Optimizing NNI: done in 9.46597 secs using 99.87% CPU
+Iteration 110 / LogL: -395576.266 / Time: 1h:12m:5s (0h:17m:38s left)
+Optimizing NNI: done in 9.24727 secs using 99.61% CPU
+Optimizing NNI: done in 11.0486 secs using 99.64% CPU
+Optimizing NNI: done in 7.30795 secs using 99.84% CPU
+Optimizing NNI: done in 10.8377 secs using 99.63% CPU
+Optimizing NNI: done in 7.40206 secs using 99.78% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 115: -395527.236
+Optimizing NNI: done in 8.75364 secs using 99.82% CPU
+Optimizing NNI: done in 9.96392 secs using 99.8% CPU
+Optimizing NNI: done in 8.2178 secs using 99.56% CPU
+Optimizing NNI: done in 7.64978 secs using 99.63% CPU
+Optimizing NNI: done in 8.66983 secs using 99.77% CPU
+Iteration 120 / LogL: -395540.050 / Time: 1h:13m:43s (0h:18m:21s left)
+Optimizing NNI: done in 8.72319 secs using 99.63% CPU
+Optimizing NNI: done in 7.95924 secs using 99.8% CPU
+Optimizing NNI: done in 8.41649 secs using 99.81% CPU
+Optimizing NNI: done in 9.23314 secs using 99.7% CPU
+Optimizing NNI: done in 10.1723 secs using 99.68% CPU
+Optimizing NNI: done in 8.63235 secs using 99.91% CPU
+Optimizing NNI: done in 9.19889 secs using 99.82% CPU
+Optimizing NNI: done in 8.57532 secs using 99.86% CPU
+Optimizing NNI: done in 8.46299 secs using 99.72% CPU
+Optimizing NNI: done in 8.7431 secs using 99.59% CPU
+Iteration 130 / LogL: -395541.564 / Time: 1h:15m:12s (0h:16m:8s left)
+Optimizing NNI: done in 9.47386 secs using 99.53% CPU
+Optimizing NNI: done in 9.34869 secs using 99.44% CPU
+Optimizing NNI: done in 8.98244 secs using 99.6% CPU
+Optimizing NNI: done in 10.3559 secs using 99.81% CPU
+Optimizing NNI: done in 8.54289 secs using 99.63% CPU
+Optimizing NNI: done in 9.04289 secs using 99.89% CPU
+Optimizing NNI: done in 9.29995 secs using 99.66% CPU
+Optimizing NNI: done in 9.95002 secs using 99.64% CPU
+Optimizing NNI: done in 10.4059 secs using 99.81% CPU
+Optimizing NNI: done in 8.1192 secs using 99.75% CPU
+Iteration 140 / LogL: -395535.077 / Time: 1h:16m:47s (0h:14m:4s left)
+Optimizing NNI: done in 8.3077 secs using 99.71% CPU
+Optimizing NNI: done in 8.64613 secs using 99.63% CPU
+Optimizing NNI: done in 11.0991 secs using 99.82% CPU
+Optimizing NNI: done in 8.75801 secs using 99.77% CPU
+Optimizing NNI: done in 8.21554 secs using 99.85% CPU
+Optimizing NNI: done in 8.13531 secs using 99.8% CPU
+Optimizing NNI: done in 8.69143 secs using 99.72% CPU
+Optimizing NNI: done in 7.84224 secs using 99.79% CPU
+Optimizing NNI: done in 7.85155 secs using 99.64% CPU
+Optimizing NNI: done in 7.01918 secs using 99.77% CPU
+Iteration 150 / LogL: -395531.983 / Time: 1h:18m:13s (0h:11m:59s left)
+Log-likelihood cutoff on original alignment: -395708.049
+Optimizing NNI: done in 7.92901 secs using 99.65% CPU
+Optimizing NNI: done in 10.4779 secs using 99.64% CPU
+Optimizing NNI: done in 7.9379 secs using 99.8% CPU
+Optimizing NNI: done in 9.26678 secs using 99.7% CPU
+Optimizing NNI: done in 9.36128 secs using 99.96% CPU
+Optimizing NNI: done in 8.27713 secs using 99.81% CPU
+Optimizing NNI: done in 8.27779 secs using 99.71% CPU
+Optimizing NNI: done in 9.21872 secs using 99.74% CPU
+Optimizing NNI: done in 7.3564 secs using 99.78% CPU
+Optimizing NNI: done in 7.3993 secs using 99.84% CPU
+Iteration 160 / LogL: -395533.169 / Time: 1h:19m:41s (0h:10m:1s left)
+Optimizing NNI: done in 9.18742 secs using 99.78% CPU
+Optimizing NNI: done in 8.84755 secs using 99.59% CPU
+Optimizing NNI: done in 8.34735 secs using 99.71% CPU
+Optimizing NNI: done in 8.79379 secs using 99.82% CPU
+Optimizing NNI: done in 8.34286 secs using 99.62% CPU
+Optimizing NNI: done in 11.0858 secs using 99.57% CPU
+Optimizing NNI: done in 11.5518 secs using 99.58% CPU
+Optimizing NNI: done in 11.8013 secs using 99.73% CPU
+Optimizing NNI: done in 18.9771 secs using 99.61% CPU
+Optimizing NNI: done in 12.5048 secs using 99.55% CPU
+Iteration 170 / LogL: -395535.235 / Time: 1h:21m:32s (0h:8m:12s left)
+Optimizing NNI: done in 8.06281 secs using 99.7% CPU
+Optimizing NNI: done in 9.11388 secs using 99.65% CPU
+Optimizing NNI: done in 10.6375 secs using 99.62% CPU
+Optimizing NNI: done in 10.6055 secs using 99.85% CPU
+Optimizing NNI: done in 9.41248 secs using 99.7% CPU
+Optimizing NNI: done in 9.80325 secs using 99.55% CPU
+Optimizing NNI: done in 8.23069 secs using 99.66% CPU
+Optimizing NNI: done in 8.12485 secs using 99.65% CPU
+Optimizing NNI: done in 8.86906 secs using 99.91% CPU
+Optimizing NNI: done in 8.64086 secs using 99.72% CPU
+Iteration 180 / LogL: -395530.272 / Time: 1h:23m:5s (0h:6m:19s left)
+Optimizing NNI: done in 7.8658 secs using 99.9% CPU
+Optimizing NNI: done in 7.50246 secs using 99.68% CPU
+Optimizing NNI: done in 8.24001 secs using 99.51% CPU
+Optimizing NNI: done in 8.45198 secs using 99.72% CPU
+Optimizing NNI: done in 7.78929 secs using 99.79% CPU
+Optimizing NNI: done in 7.42753 secs using 99.78% CPU
+Optimizing NNI: done in 9.40762 secs using 99.74% CPU
+Optimizing NNI: done in 7.65342 secs using 99.84% CPU
+Optimizing NNI: done in 7.99914 secs using 99.7% CPU
+Optimizing NNI: done in 8.5227 secs using 99.72% CPU
+Iteration 190 / LogL: -395554.095 / Time: 1h:24m:27s (0h:4m:27s left)
+Optimizing NNI: done in 8.84842 secs using 99.77% CPU
+Optimizing NNI: done in 9.5133 secs using 99.58% CPU
+Optimizing NNI: done in 8.53432 secs using 99.86% CPU
+Optimizing NNI: done in 8.20366 secs using 99.81% CPU
+Optimizing NNI: done in 7.53528 secs using 99.79% CPU
+Optimizing NNI: done in 9.28646 secs using 99.78% CPU
+Optimizing NNI: done in 9.87318 secs using 99.88% CPU
+Optimizing NNI: done in 10.4446 secs using 99.73% CPU
+Optimizing NNI: done in 8.1832 secs using 99.61% CPU
+Optimizing NNI: done in 9.08543 secs using 99.74% CPU
+Iteration 200 / LogL: -395569.276 / Time: 1h:25m:58s (0h:2m:39s left)
+Log-likelihood cutoff on original alignment: -395707.361
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Optimizing NNI: done in 8.26792 secs using 99.81% CPU
+Optimizing NNI: done in 9.44339 secs using 99.66% CPU
+Optimizing NNI: done in 9.38138 secs using 99.7% CPU
+Optimizing NNI: done in 8.30104 secs using 99.86% CPU
+Optimizing NNI: done in 7.60064 secs using 99.79% CPU
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -395527.081
+Optimizing NNI: done in 8.0949 secs using 99.55% CPU
+Optimizing NNI: done in 8.6498 secs using 99.77% CPU
+Optimizing NNI: done in 10.2702 secs using 99.8% CPU
+Optimizing NNI: done in 7.95743 secs using 99.85% CPU
+Optimizing NNI: done in 7.88882 secs using 99.59% CPU
+Iteration 210 / LogL: -395542.984 / Time: 1h:27m:30s (0h:15m:50s left)
+Optimizing NNI: done in 7.85587 secs using 99.8% CPU
+Optimizing NNI: done in 7.83449 secs using 99.49% CPU
+Optimizing NNI: done in 8.23044 secs using 99.76% CPU
+Optimizing NNI: done in 8.51124 secs using 99.58% CPU
+Optimizing NNI: done in 8.06147 secs using 99.8% CPU
+Optimizing NNI: done in 8.90413 secs using 99.82% CPU
+TREE SEARCH COMPLETED AFTER 216 ITERATIONS / Time: 1h:28m:21s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -395527.081
+Optimal log-likelihood: -395527.073
+Rate parameters:  A-C: 1.99060  A-G: 3.34296  A-T: 3.07577  C-G: 3.38564  C-T: 4.15249  G-T: 1.00000
+Base frequencies:  A: 0.251  C: 0.261  G: 0.283  T: 0.205
+Proportion of invariable sites: 0.016
+Site proportion and rates:  (0.042,0.034) (0.052,0.124) (0.083,0.262) (0.119,0.483) (0.196,0.793) (0.238,1.245) (0.253,1.823)
+Parameters optimization took 1 rounds (4.587 sec)
+BEST SCORE FOUND : -395527.073
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+24.878 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file alineamiento_concatenado_final2.fasta.splits.nex
+Total tree length: 73.151
+
+Total number of iterations: 216
+CPU time used for tree search: 2241.428 sec (0h:37m:21s)
+Wall-clock time used for tree search: 2247.427 sec (0h:37m:27s)
+Total CPU time used: 5310.331 sec (1h:28m:30s)
+Total wall-clock time used: 5331.524 sec (1h:28m:51s)
+
+Computing bootstrap consensus tree...
+Reading input file alineamiento_concatenado_final2.fasta.splits.nex...
+202 taxa and 895 splits.
+Consensus tree written to alineamiento_concatenado_final2.fasta.contree
+Reading input trees file alineamiento_concatenado_final2.fasta.contree
+Log-likelihood of consensus tree: -395527.496
+
+Analysis results written to: 
+  IQ-TREE report:                alineamiento_concatenado_final2.fasta.iqtree
+  Maximum-likelihood tree:       alineamiento_concatenado_final2.fasta.treefile
+  Likelihood distances:          alineamiento_concatenado_final2.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          alineamiento_concatenado_final2.fasta.splits.nex
+  Consensus tree:                alineamiento_concatenado_final2.fasta.contree
+  Screen log file:               alineamiento_concatenado_final2.fasta.log
+
+Date and Time: Fri Oct 31 09:25:23 2025
