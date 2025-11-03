@@ -1,0 +1,1071 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: alineamiento_concatenado_final2.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 156827
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 202 sequences with 7035 nucleotide sites
+Number of constant sites: 1864 (= 26.4961% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1864 (= 26.4961% of all sites)
+Number of parsimony informative sites: 3841
+Number of distinct site patterns: 5122
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+I+R7
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+I+R7      -396229.857  793303.715 +        1  793357.709 +        1  796198.066 +    0.988
+GTR+F+R7        -396238.727  793319.453 - 0.000382  793373.184 - 0.000436  796206.946 -   0.0117
+TVM+F+I+R7      -396375.471  793592.942 - 1.57e-63  793646.673 - 1.79e-63  796480.435 - 4.78e-62
+TVM+F+R7        -396383.546  793607.092 - 1.33e-66  793660.560 - 1.72e-66  796487.726 - 1.25e-63
+TVM+I+R7        -396611.725  794059.451 - 7.83e-165  794112.396 - 1.32e-164  796926.368 - 7.02e-159
+TVMe+I+R7       -396611.764  794059.528 - 7.54e-165  794112.473 - 1.27e-164  796926.445 - 6.75e-159
+TVMe+I+R7       -396611.764  794059.528 - 7.54e-165  794112.473 - 1.27e-164  796926.445 - 6.75e-159
+GTR+I+R7        -396611.584  794061.167 - 3.32e-165  794114.374 - 4.92e-165  796934.943 - 9.64e-161
+SYM+I+R7        -396611.596  794061.193 - 3.28e-165  794114.399 - 4.86e-165  796934.969 - 9.52e-161
+SYM+I+R7        -396611.596  794061.193 - 3.28e-165  794114.399 - 4.86e-165  796934.969 - 9.52e-161
+TVM+R7          -396621.664  794077.327 - 1.03e-168  794130.012 - 1.98e-168  796937.386 - 2.84e-161
+TVMe+R7         -396621.694  794077.387 - 9.98e-169  794130.072 - 1.92e-168  796937.446 - 2.76e-161
+TVMe+R7         -396621.694  794077.387 - 9.98e-169  794130.072 - 1.92e-168  796937.446 - 2.76e-161
+GTR+R7          -396621.533  794079.066 - 4.31e-169  794132.011 - 7.28e-169  796945.983 - 3.86e-163
+SYM+R7          -396621.568  794079.136 - 4.16e-169  794132.081 - 7.03e-169  796946.053 - 3.73e-163
+SYM+R7          -396621.568  794079.136 - 4.16e-169  794132.081 - 7.03e-169  796946.053 - 3.73e-163
+TIM+F+I+R7      -396739.307  794318.615 - 4.14e-221  794372.083 - 5.39e-221  797199.249 - 3.9e-218
+TIM+F+R7        -396750.606  794339.212 - 1.39e-225  794392.418 - 2.07e-225  797212.987 - 4.05e-221
+K3Pu+F+I+R7     -396867.247  794572.494 - 3.08e-276  794625.700 - 4.56e-276  797446.269 - 8.94e-272
+K3Pu+F+R7       -396876.683  794589.367 - 6.67e-280  794642.312 - 1.13e-279  797456.284 - 5.98e-274
+K3Pu+I+R7       -397780.681  796393.363 -        0  796445.787 -        0  799246.562 -        0
+K3P+I+R7        -397780.709  796393.419 -        0  796445.843 -        0  799246.618 -        0
+K3P+I+R7        -397780.709  796393.419 -        0  796445.843 -        0  799246.618 -        0
+TIM+I+R7        -397777.007  796388.015 -        0  796440.699 -        0  799248.073 -        0
+TIMe+I+R7       -397777.052  796388.103 -        0  796440.788 -        0  799248.162 -        0
+TIMe+I+R7       -397777.052  796388.103 -        0  796440.788 -        0  799248.162 -        0
+K3Pu+R7         -397789.386  796408.772 -        0  796460.937 -        0  799255.113 -        0
+K3P+R7          -397789.397  796408.794 -        0  796460.959 -        0  799255.135 -        0
+K3P+R7          -397789.397  796408.794 -        0  796460.959 -        0  799255.135 -        0
+TIM+R7          -397785.608  796403.216 -        0  796455.641 -        0  799256.416 -        0
+TIMe+R7         -397785.648  796403.296 -        0  796455.721 -        0  799256.496 -        0
+TIMe+R7         -397785.648  796403.296 -        0  796455.721 -        0  799256.496 -        0
+TIM3+F+I+R7     -397932.838  796705.677 -        0  796759.145 -        0  799586.311 -        0
+TIM3+F+R7       -397942.782  796723.564 -        0  796776.770 -        0  799597.339 -        0
+TPM3u+F+I+R7    -398081.844  797001.688 -        0  797054.894 -        0  799875.463 -        0
+TPM3u+F+R7      -398090.739  797017.478 -        0  797070.423 -        0  799884.395 -        0
+TPM3u+I+R7      -398285.977  797403.953 -        0  797456.377 -        0  800257.153 -        0
+TPM3+I+R7       -398286.021  797404.041 -        0  797456.466 -        0  800257.241 -        0
+TPM3+I+R7       -398286.021  797404.041 -        0  797456.466 -        0  800257.241 -        0
+TIM3+I+R7       -398285.542  797405.083 -        0  797457.767 -        0  800265.141 -        0
+TIM3e+I+R7      -398285.595  797405.191 -        0  797457.875 -        0  800265.249 -        0
+TIM3e+I+R7      -398285.595  797405.191 -        0  797457.875 -        0  800265.249 -        0
+TPM3u+R7        -398295.807  797421.614 -        0  797473.779 -        0  800267.955 -        0
+TPM3+R7         -398295.837  797421.674 -        0  797473.839 -        0  800268.015 -        0
+TPM3+R7         -398295.837  797421.674 -        0  797473.839 -        0  800268.015 -        0
+TIM3+R7         -398295.323  797422.647 -        0  797475.071 -        0  800275.846 -        0
+TIM3e+R7        -398295.365  797422.729 -        0  797475.153 -        0  800275.929 -        0
+TIM3e+R7        -398295.365  797422.729 -        0  797475.153 -        0  800275.929 -        0
+TN+F+I+R7       -398314.861  797467.722 -        0  797520.928 -        0  800341.498 -        0
+TIM2+F+I+R7     -398313.090  797466.181 -        0  797519.649 -        0  800346.815 -        0
+TN+F+R7         -398328.190  797492.381 -        0  797545.326 -        0  800359.298 -        0
+TIM2+F+R7       -398326.454  797490.908 -        0  797544.114 -        0  800364.683 -        0
+HKY+F+I+R7      -398442.863  797721.725 -        0  797774.670 -        0  800588.642 -        0
+TPM2u+F+I+R7    -398440.821  797719.643 -        0  797772.849 -        0  800593.418 -        0
+HKY+F+R7        -398453.701  797741.402 -        0  797794.087 -        0  800601.461 -        0
+TPM2u+F+R7      -398451.563  797739.127 -        0  797792.072 -        0  800606.044 -        0
+TPM2u+I+R7      -399438.786  799709.571 -        0  799761.995 -        0  802562.771 -        0
+TPM2+I+R7       -399438.797  799709.595 -        0  799762.019 -        0  802562.794 -        0
+TPM2+I+R7       -399438.797  799709.595 -        0  799762.019 -        0  802562.794 -        0
+TIM2+I+R7       -399434.611  799703.223 -        0  799755.907 -        0  802563.281 -        0
+TIM2e+I+R7      -399434.620  799703.241 -        0  799755.925 -        0  802563.299 -        0
+TIM2e+I+R7      -399434.620  799703.241 -        0  799755.925 -        0  802563.299 -        0
+TPM2u+R7        -399449.209  799728.418 -        0  799780.583 -        0  802574.759 -        0
+TPM2+R7         -399449.215  799728.431 -        0  799780.596 -        0  802574.772 -        0
+TPM2+R7         -399449.215  799728.431 -        0  799780.596 -        0  802574.772 -        0
+TIM2+R7         -399444.895  799721.790 -        0  799774.214 -        0  802574.989 -        0
+TIM2e+R7        -399444.898  799721.796 -        0  799774.220 -        0  802574.996 -        0
+TIM2e+R7        -399444.898  799721.796 -        0  799774.220 -        0  802574.996 -        0
+HKY+I+R7        -399474.382  799778.764 -        0  799830.929 -        0  802625.105 -        0
+K2P+I+R7        -399474.389  799778.779 -        0  799830.944 -        0  802625.120 -        0
+K2P+I+R7        -399474.389  799778.779 -        0  799830.944 -        0  802625.120 -        0
+TN+I+R7         -399470.222  799772.444 -        0  799824.868 -        0  802625.644 -        0
+TNe+I+R7        -399470.224  799772.447 -        0  799824.871 -        0  802625.647 -        0
+TNe+I+R7        -399470.224  799772.447 -        0  799824.871 -        0  802625.647 -        0
+HKY+R7          -399484.001  799796.002 -        0  799847.908 -        0  802635.484 -        0
+K2P+R7          -399484.010  799796.020 -        0  799847.927 -        0  802635.503 -        0
+K2P+R7          -399484.010  799796.020 -        0  799847.927 -        0  802635.503 -        0
+TNe+R7          -399479.723  799789.446 -        0  799841.611 -        0  802635.787 -        0
+TNe+R7          -399479.723  799789.446 -        0  799841.611 -        0  802635.787 -        0
+TN+R7           -399479.724  799789.448 -        0  799841.613 -        0  802635.789 -        0
+F81+F+I+R7      -399751.956  800337.912 -        0  800390.596 -        0  803197.970 -        0
+F81+F+R7        -399761.870  800355.740 -        0  800408.164 -        0  803208.940 -        0
+F81+I+R7        -400760.811  802349.622 -        0  802401.529 -        0  805189.105 -        0
+JC+I+R7         -400760.864  802349.728 -        0  802401.635 -        0  805189.211 -        0
+JC+I+R7         -400760.864  802349.728 -        0  802401.635 -        0  805189.211 -        0
+F81+R7          -400769.407  802364.813 -        0  802416.462 -        0  805197.437 -        0
+JC+R7           -400769.415  802364.830 -        0  802416.478 -        0  805197.454 -        0
+JC+R7           -400769.415  802364.830 -        0  802416.478 -        0  805197.454 -        0
+JC+I+R8         -400757.206  802346.412 -        0  802398.837 -        0  805199.612 -        0
+JC+R8           -400762.905  802355.811 -        0  802407.976 -        0  805202.152 -        0
+JC+I+R6         -400791.892  802407.784 -        0  802459.175 -        0  805233.549 -        0
+JC+R6           -400837.037  802496.074 -        0  802547.209 -        0  805314.981 -        0
+JC+I+R5         -400925.704  802671.407 -        0  802722.286 -        0  805483.455 -        0
+JC+R5           -401012.935  802843.870 -        0  802894.494 -        0  805649.059 -        0
+JC+I+R4         -401220.280  803256.560 -        0  803306.929 -        0  806054.890 -        0
+JC+R4           -401384.099  803582.199 -        0  803632.314 -        0  806373.671 -        0
+JC+I+G4         -401875.480  804556.960 -        0  804606.066 -        0  807320.997 -        0
+JC+I+R3         -402153.612  805119.224 -        0  805169.086 -        0  807903.837 -        0
+JC+G4           -402296.302  805396.604 -        0  805445.459 -        0  808153.782 -        0
+JC+R3           -402619.144  806048.287 -        0  806097.896 -        0  808826.042 -        0
+JC+I+R2         -405496.588  811801.176 -        0  811850.534 -        0  814572.072 -        0
+JC+R2           -406538.772  813883.545 -        0  813932.651 -        0  816647.582 -        0
+JC+I            -422161.860  845127.719 -        0  845176.575 -        0  847884.898 -        0
+JC              -425745.972  852293.944 -        0  852342.550 -        0  855044.264 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+R7
+
+Rate parameter R:
+
+  A-C: 1.9906
+  A-G: 3.3430
+  A-T: 3.0758
+  C-G: 3.3856
+  C-T: 4.1525
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2515
+  pi(C) = 0.2607
+  pi(G) = 0.2832
+  pi(T) = 0.2046
+
+Rate matrix Q:
+
+  A   -0.9917    0.2457    0.4482    0.2979
+  C     0.237    -1.093    0.4539    0.4021
+  G     0.398    0.4178   -0.9126   0.09684
+  T    0.3662    0.5125    0.1341    -1.013
+
+Model of rate heterogeneity: Invar+FreeRate with 7 categories
+Proportion of invariable sites: 0.01646
+Site proportion and rates:  (0.04211,0.03448) (0.05156,0.1245) (0.08336,0.262) (0.1193,0.4833) (0.1964,0.7927) (0.2382,1.245) (0.2527,1.823)
+
+ Category  Relative_rate  Proportion
+  0         0              0.01646
+  1         0.03448        0.04211
+  2         0.1245         0.05156
+  3         0.262          0.08336
+  4         0.4833         0.1193
+  5         0.7927         0.1964
+  6         1.245          0.2382
+  7         1.823          0.2527
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -395527.0726 (s.e. 6366.5877)
+Unconstrained log-likelihood (without tree): -55944.3084
+Number of free parameters (#branches + #model parameters): 422
+Akaike information criterion (AIC) score: 791898.1451
+Corrected Akaike information criterion (AICc) score: 791952.1397
+Bayesian information criterion (BIC) score: 794792.4967
+
+Total tree length (sum of branch lengths): 73.1511
+Sum of internal branch lengths: 17.7873 (24.3159% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'NC_000913.3_c2339420-2336793' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--NC_000913.3_c2339420-2336793
+|
+|                                                  +--------Pusillimonas_sp._T7-7_PT7_RS06950
+|                                               +--| (39.2/99)
+|                                               |  |  +--Variovorax_sp._KBW07_DBV14_RS00295
+|                                               |  +--| (100/100)
+|                                               |     +----Rhodoferax_fermentans_RF819_RS01585
+|                                            +--| (100/100)
+|                                            |  +----Janthinobacterium_sp._344_BM193_RS13325
+|                                         +--| (98.1/100)
+|                                         |  +-----------Neisseria_cinerea_ATCC_14685_NEICINOT_RS07995
+|                                      +--| (100/100)
+|                                      |  |                        +-----Kangiella_sediminilitoris_KS2013_RS02775
+|                                      |  |                     +--| (92.6/100)
+|                                      |  |                     |  +----Pseudoalteromonas_luteoviolacea_NCIMB_1944_N483_RS01695
+|                                      |  |                  +--| (99.6/82)
+|                                      |  |                  |  |        +--_Haemophilus__felis_B0188_RS09430
+|                                      |  |                  |  |     +--| (99.7/100)
+|                                      |  |                  |  |     |  +--Pasteurella_sp._WM03_E4T92_RS03675
+|                                      |  |                  |  |  +--| (100/100)
+|                                      |  |                  |  |  |  +----Vespertiliibacter_pulmonis_EDC46_RS01800
+|                                      |  |                  |  +--| (68.5/82)
+|                                      |  |                  |     +---------Acinetobacter_sp._CFCC_10889_AVJ19_RS06355
+|                                      |  |               +--| (100/100)
+|                                      |  |               |  +--------Thiomicrorhabdus_sediminis_FE785_RS02010
+|                                      |  |            +--| (100/100)
+|                                      |  |            |  |  +---Leminorella_richardii_FX055_RS13305
+|                                      |  |            |  +--| (98.6/94)
+|                                      |  |            |     +--Pectobacterium_peruviense_G033_RS01780
+|                                      |  |         +--| (67/73)
+|                                      |  |         |  |  +----Marinobacter_similis_AU14_RS06355
+|                                      |  |         |  +--| (76.3/99)
+|                                      |  |         |     +-----Halieaceae_bacterium_GJU78_RS02070
+|                                      |  |      +--| (88.3/73)
+|                                      |  |      |  +----Salinicola_aestuarinus_DOM41_RS17035
+|                                      |  |   +--| (99.8/98)
+|                                      |  |   |  |      +--Pseudomonas_fluorescens_Pf29Arp_IC61_RS0113995
+|                                      |  |   |  |  +---| (100/100)
+|                                      |  |   |  |  |   +--Pseudomonas_fluorescens_F8N52_RS11320
+|                                      |  |   |  +--| (8.4/55)
+|                                      |  |   |     +----Thiohalobacter_thiocyanaticus_D6C00_RS03475
+|                                      |  +---| (100/100)
+|                                      |      +----Dyella_choica_EKH80_RS02330
+|                                   +--| (87.5/99)
+|                                   |  |                     +--Sphingobium_fuliginis_DFS08_RS03630
+|                                   |  |                  +--| (13.1/92)
+|                                   |  |                  |  +--Sphingobium_sp._D43FB_SxD43FB_RS16335
+|                                   |  |               +--| (100/100)
+|                                   |  |               |  +--Sphingobium_sp._AP49_PMI04_RS01360
+|                                   |  |            +--| (86.4/99)
+|                                   |  |            |  |  +------Sphingorhabdus_contaminans_FOM92_RS04880
+|                                   |  |            |  +--| (97.2/100)
+|                                   |  |            |     +--Sphingopyxis_sp._Root154_ASD73_RS05135
+|                                   |  |         +--| (100/100)
+|                                   |  |         |  |  +--Sphingomonas_psychrotolerans_CVN68_RS06925
+|                                   |  |         |  +--| (100/100)
+|                                   |  |         |     +--Sphingomonadaceae_bacterium_DKB74_RS17405
+|                                   |  |      +--| (98.3/100)
+|                                   |  |      |  |     +------Rhodobacteraceae_bacterium_4F10_CSC82_RS01155
+|                                   |  |      |  |  +--| (35.4/98)
+|                                   |  |      |  |  |  +--Haematobacter_genomosp._1_CDV49_RS16570
+|                                   |  |      |  +--| (100/100)
+|                                   |  |      |     +--Tabrizicola_sp._YIM_78059_EZM81_RS13660
+|                                   |  |   +--| (86.2/99)
+|                                   |  |   |  |        +--Pseudorhizobium_banfieldiae_NT26_RS05680
+|                                   |  |   |  |     +--| (100/100)
+|                                   |  |   |  |     |  +--Rhizobium_tubonense_CPY51_RS01390
+|                                   |  |   |  |  +--| (100/100)
+|                                   |  |   |  |  |  |  +--Mesorhizobium_sp._M4B.F.Ca.ET.058.02.1.1_EJ073_RS06375
+|                                   |  |   |  |  |  +--| (100/100)
+|                                   |  |   |  |  |     +--Mesorhizobium_tamadayense_EH240_RS34000
+|                                   |  |   |  +--| (100/100)
+|                                   |  |   |     +--Breoghania_sp._L-A4_D1F64_RS09395
+|                                   |  +---| (100/100)
+|                                   |      +--------Gluconacetobacter_entanii_CFR72_RS06890
+|                                +--| (99.7/99)
+|                                |  +---------------Clostridiales_bacterium_FXX85_RS00410
+|                             +--| (100/99)
+|                             |  |              +---Serinicoccus_profundi_FA582_RS06570
+|                             |  |           +--| (97.4/92)
+|                             |  |           |  |  +-----Acaricomes_phytoseiuli_DSM_14247_C501_RS0104275
+|                             |  |           |  +--| (99.8/99)
+|                             |  |           |     |     +---Cryobacterium_fucosi_E3T48_RS11760
+|                             |  |           |     |  +--| (98.8/100)
+|                             |  |           |     |  |  |  +--Microbacterium_sp._Root180_ASD93_RS05515
+|                             |  |           |     |  |  +--| (100/100)
+|                             |  |           |     |  |     +--Microbacteriaceae_bacterium_BQ4139_RS02655
+|                             |  |           |     +--| (99.7/100)
+|                             |  |           |        +---------Leucobacter_sp._OH1287_EII30_RS04135
+|                             |  |        +--| (18.4/64)
+|                             |  |        |  |     +--Nocardioides_sp._Leaf307_ASF50_RS10690
+|                             |  |        |  |  +--| (100/100)
+|                             |  |        |  |  |  +--Nocardioides_sambongensis_FIV43_RS03295
+|                             |  |        |  +--| (100/100)
+|                             |  |        |     +----Aeromicrobium_sp._PE09-221_BHE97_RS14130
+|                             |  |     +--| (99.2/82)
+|                             |  |     |  |     +---Nocardiopsis_chromatogenes_YIM_90109_D476_RS0111680
+|                             |  |     |  |  +--| (97.6/99)
+|                             |  |     |  |  |  +--Microtetraspora_malaysiensis_AWQ71_RS10815
+|                             |  |     |  +--| (25.3/62)
+|                             |  |     |     |  +--Streptomyces_sp._NRRL_F-6131_IF39_RS0104355
+|                             |  |     |     +--| (100/100)
+|                             |  |     |        +--Streptomyces_sp._MZ04_E2651_RS10480
+|                             |  |  +--| (100/100)
+|                             |  |  |  +----Micromonospora_sp._MH33_B0E53_RS22590
+|                             |  +--| (100/100)
+|                             |     |              +--Mycobacterium_sp._GA-2829_AU194_RS11980
+|                             |     +--------------| (100/100)
+|                             |                    |  +--Mycolicibacterium_duvalii_CRI77_RS14740
+|                             |                    +--| (88.8/100)
+|                             |                       +--Mycolicibacterium_porcinum_A5717_RS03300
+|                          +--| (89.6/96)
+|                          |  |              +--Nocardia_asteroides_NBRC_15531_NCAST_RS18395
+|                          |  |           +--| (99.6/100)
+|                          |  |           |  +--Rhodococcus_triatomae_BLQ89_RS19995
+|                          |  |        +--| (99.2/100)
+|                          |  |        |  |           +--Mycobacterium_scrofulaceum_A5681_RS21095
+|                          |  |        |  |        +--| (99.8/100)
+|                          |  |        |  |        |  +--Mycobacterium_sp._E1747_A5695_RS19510
+|                          |  |        |  |     +--| (92.4/100)
+|                          |  |        |  |     |  +--Mycobacterium_neglectum_CSQ99_RS22930
+|                          |  |        |  |  +--| (100/100)
+|                          |  |        |  |  |  +--Mycobacterium_sp._1274756.6_A5643_RS14575
+|                          |  |        |  +--| (36.4/94)
+|                          |  |        |     +--Tsukamurella_paurometabola_DYH47_RS17760
+|                          |  |     +--| (100/100)
+|                          |  |     |  +-----Corynebacterium_aurimucosum_ADI99_RS05300
+|                          |  |  +--| (99.3/100)
+|                          |  |  |  |  +--Modestobacter_versicolor_DMO24_RS15110
+|                          |  |  |  +--| (39.3/97)
+|                          |  |  |     |  +--Micromonospora_endophytica_D3H59_RS09485
+|                          |  |  |     +--| (99.9/100)
+|                          |  |  |        +--Glycomyces_tenuis_HY82_RS08445
+|                          |  +--| (100/100)
+|                          |     |        +--Kitasatospora_azatica_KCTC_9699_BR98_RS22480
+|                          |     |     +--| (100/100)
+|                          |     |     |  |     +--Streptomyces_sp._NRRL_S-646_IH68_RS0124775
+|                          |     |     |  |  +--| (71/100)
+|                          |     |     |  |  |  +--Streptomyces_violaceorubidus_IE94_RS0109005
+|                          |     |     |  +--| (100/100)
+|                          |     |     |     +--Streptomyces_cyaneogriseus_subsp._noncyanogenus_TU94_RS16430
+|                          |     |  +--| (85.2/84)
+|                          |     |  |  |              +--Microbacterium_telephonicum_C7474_RS00665
+|                          |     |  |  |           +--| (100/100)
+|                          |     |  |  |           |  +--Curtobacterium_sp._MCBA15_008_BIU96_RS05805
+|                          |     |  |  |        +--| (97.3/100)
+|                          |     |  |  |        |  |  +--Kocuria_flava_AS188_RS02835
+|                          |     |  |  |        |  +--| (99.9/100)
+|                          |     |  |  |        |     +--Pseudarthrobacter_chlorophenolicus_A6_ACHL_RS00040
+|                          |     |  |  |     +--| (79.7/99)
+|                          |     |  |  |     |  +---Demequina_aestuarii_AOP72_RS12685
+|                          |     |  |  |  +--| (98.9/87)
+|                          |     |  |  |  |  |  +-----Neoactinobaculum_massilliense_EIH27_RS07030
+|                          |     |  |  |  |  +--| (99.8/100)
+|                          |     |  |  |  |     +----Bifidobacterium_xylocopae_CRD59_RS02720
+|                          |     |  |  +--| (96/86)
+|                          |     |  |     +---Jiangella_aurantiaca_E1262_RS02950
+|                          |     +--| (83.1/84)
+|                          |        |  +--Nonomuraea_lactucae_DQW85_RS20585
+|                          |        +--| (100/100)
+|                          |           +--Microtetraspora_niveoalba_AWQ70_RS10795
+|                       +--| (88.2/79)
+|                       |  +--------Thermus_thermamylovorans_ETP66_RS05875
+|                    +--| (95/95)
+|                    |  |          +--Rosistilla_oblonga_CA51_RS05145
+|                    |  |     +----| (100/100)
+|                    |  |     |    +---Rubripirellula_tenax_Poly51_RS07160
+|                    |  |  +--| (99.8/100)
+|                    |  |  |  +-----Planctomycetes_bacterium_Poly30_Poly30_RS27465
+|                    |  +--| (71.7/80)
+|                    |     +------NC_013967.1_1443314-1445902
+|                 +--| (99.9/100)
+|                 |  |                 +----------Veillonella_tobetsuensis_VEI_RS08920
+|                 |  |              +--| (94.7/99)
+|                 |  |              |  +------Dendrosporobacter_quercicolus_BLR06_RS15410
+|                 |  |           +--| (97.9/97)
+|                 |  |           |  +----Selenomonas_massiliensis_C8273_RS00950
+|                 |  |        +--| (96.7/96)
+|                 |  |        |  |     +---Effusibacillus_pohliae_DSM_22757_C230_RS0107410
+|                 |  |        |  |  +--| (81.3/100)
+|                 |  |        |  |  |  +------Thermoactinomyces_sp._AS95_AYX07_RS08560
+|                 |  |        |  +--| (100/100)
+|                 |  |        |     |  +----Paenibacillus_sophorae_BMX71_RS22350
+|                 |  |        |     +--| (100/100)
+|                 |  |        |        |  +--Paenibacillus_sp._A3_QJ48_RS19470
+|                 |  |        |        +--| (100/100)
+|                 |  |        |           +--Paenibacillus_elgii_AV654_RS14060
+|                 |  |     +--| (99.1/98)
+|                 |  |     |  +----------Abditibacterium_utsteinense_B1R32_RS07200
+|                 |  |  +--| (47.1/70)
+|                 |  |  |  |        +-------------Leptolyngbya_sp._PCC_6406_LEP6406_RS0209300
+|                 |  |  |  |     +--| (97.5/100)
+|                 |  |  |  |     |  +-------Synechococcus_sp._KORDI-100_KR100_RS05465
+|                 |  |  |  |  +--| (57.2/95)
+|                 |  |  |  |  |  +----------------------Dictyobacter_alpinus_EL633_RS18500
+|                 |  |  |  +--| (68.3/92)
+|                 |  |  |     |      +-------Candidatus_Saccharimonas_aalborgensis_L336_RS03530
+|                 |  |  |     +------| (100/100)
+|                 |  |  |            +-----Candidatus_Nanoperiomorbus_periodonticus_G51EAM_RS02490
+|                 |  +--| (94.5/94)
+|                 |     |    +--Raoultibacter_timonensis_C1722_RS16175
+|                 |     +----| (100/100)
+|                 |          +--Slackia_faecicanis_DMP07_RS08100
+|              +--| (100/100)
+|              |  |           +----Erythrobacter_longus_EH31_RS01990
+|              |  |        +--| (98.3/100)
+|              |  |        |  +--Novosphingobium_ginsenosidimutans_FRF71_RS13450
+|              |  |     +--| (99.8/100)
+|              |  |     |  +---Tsuneonella_amylolytica_D4766_RS00125
+|              |  |  +--| (100/100)
+|              |  |  |  +--Sphingomonas_naasensis_E5A74_RS01510
+|              |  +--| (100/100)
+|              |     |           +--Rhodobacter_capsulatus_FBT96_RS18405
+|              |     |        +--| (100/100)
+|              |     |        |  +--Rhodobacter_aestuarii_BW967_RS08725
+|              |     |     +--| (86.7/99)
+|              |     |     |  +--Gemmobacter_aquaticus_FQU74_RS08795
+|              |     |  +--| (100/100)
+|              |     |  |  +--Nioella_nitratireducens_BKY27_RS14115
+|              |     +--| (24.7/93)
+|              |        |        +--Brucella_sp._09RB8910_BKD02_RS11930
+|              |        |     +--| (100/100)
+|              |        |     |  +--Hyphomicrobiales_bacterium_DUI55_RS18260
+|              |        |  +--| (100/100)
+|              |        |  |  |  +--Hyphomicrobiales_bacterium_DUF12_RS10060
+|              |        |  |  +--| (100/100)
+|              |        |  |     +--Hyphomicrobiales_bacterium_DTX57_RS17545
+|              |        +--| (98.7/100)
+|              |           +--Methylorubrum_salsuginis_BM140_RS14620
+|           +--| (98.4/99)
+|           |  |     +--Derxia_gummosa_DSM_723_H566_RS0107795
+|           |  |  +--| (87.8/76)
+|           |  |  |  |     +--Burkholderia_sp._WAC0059_CY652_RS14380
+|           |  |  |  |  +--| (99.8/100)
+|           |  |  |  |  |  +--Paraburkholderia_nodosa_BFD71_RS07515
+|           |  |  |  +--| (100/100)
+|           |  |  |     +--Burkholderia_latens_WK25_RS04920
+|           |  +--| (100/100)
+|           |     |     +--Tepidimonas_ignava_Tigna_RS10370
+|           |     |  +--| (100/100)
+|           |     |  |  +--Comamonas_testosteroni_DZC30_RS08385
+|           |     +--| (3.6/35)
+|           |        |  +-----Neopusillimonas_maritima_CJP73_RS14550
+|           |        +--| (93.5/83)
+|           |           +--Duganella_sacchari_BUA36_RS20620
+|        +--| (99.6/100)
+|        |  +---Stenotrophomonas_sp._HMWF003_DBR34_RS17970
+|     +--| (100/100)
+|     |  |     +---Halomonas_sp._BC04_Q427_RS04460
+|     |  |  +--| (2.7/60)
+|     |  |  |  +----Gammaproteobacteria_bacterium_LSUCC0057_E3W66_RS02135
+|     |  +--| (98.8/100)
+|     |     |     +--Pseudomonas_sp._NBRC_111124_APH28_RS10150
+|     |     |  +--| (100/100)
+|     |     |  |  |     +--Pseudomonas_trivialis_AA957_RS05955
+|     |     |  |  |  +--| (100/100)
+|     |     |  |  |  |  +--Pseudomonas_sp._LD120_PLD_RS09200
+|     |     |  |  +--| (98.7/100)
+|     |     |  |     +--Pseudomonas_cichorii_D2G06_RS04465
+|     |     +--| (100/100)
+|     |        +--Pseudomonas_jinjuensis_BLR75_RS00050
+|  +--| (100/100)
+|  |  +--Chimaeribacter_coloradensis_CYR32_RS12505
++--| (88.2/99)
+|  +--Pantoea_coffeiphila_CQW29_RS03365
+|
+|                                            +---Aliarcobacter_butzleri_7h1h_A7H1H_RS08450
+|                                         +--| (99.6/100)
+|                                         |  |     +-----Helicobacter_cetorum_C6H25_RS07795
+|                                         |  |  +--| (57.9/100)
+|                                         |  |  |  |  +------Helicobacter_saguini_LS64_RS09350
+|                                         |  |  |  +--| (93.9/100)
+|                                         |  |  |     +---Helicobacter_anseris_CQA57_RS06555
+|                                         |  +--| (100/100)
+|                                         |     +---Helicobacter_sp._11-8110_CCY98_RS00745
+|                                      +--| (100/100)
+|                                      |  +------Caminibacter_pacificus_C6V80_RS03605
+|                                   +--| (92.5/73)
+|                                   |  +--------Mycoplasmopsis_canis_UFG4_MCANUFG4_RS02000
+|                                +--| (19.1/38)
+|                                |  |                 +----Peptoniphilus_sp._BV3C26_HMPREF1253_RS01780
+|                                |  |              +--| (96.8/100)
+|                                |  |              |  +--------Clostridiales_bacterium_SIT11_BN2668_RS05275
+|                                |  |           +--| (100/100)
+|                                |  |           |  +-----Anaerococcus_vaginalis_FXY83_RS06935
+|                                |  |        +--| (41.9/94)
+|                                |  |        |  +-------Eubacterium_ventriosum_ATCC_27560_EUBVEN_RS06805
+|                                |  |     +--| (95.8/95)
+|                                |  |     |  |  +---Fervidicella_metallireducens_AeB_Q428_RS06385
+|                                |  |     |  +--| (100/100)
+|                                |  |     |     +---Clostridium_haemolyticum_NCTC_8350_Z961_RS08595
+|                                |  |  +--| (41.1/40)
+|                                |  |  |  +--------Thermodesulfovibrio_sp._N1_THER_RS00860
+|                                |  +--| (92.1/46)
+|                                |     |     +-----Dictyoglomus_sp._ob1-4_AXA78_RS06030
+|                                |     |  +--| (99.3/78)
+|                                |     |  |  +----------------Thermovirga_lienii_DSM_17291_TLIE_RS01960
+|                                |     +--| (96/39)
+|                                |        |  +----Fusobacterium_massiliense_FY437_RS03905
+|                                |        +--| (100/100)
+|                                |           +----Sneathia_vaginalis_VC03_RS01570
+|                             +--| (86.3/72)
+|                             |  |  +-------Candidatus_Phytoplasma_pini_MDPP_RS00290
+|                             |  +--| (99.8/96)
+|                             |     +---------Borreliella_turdi_DB707_RS01150
+|                          +--| (85.2/72)
+|                          |  +------------Denitrovibrio_acetiphilus_DSM_12809_DACET_RS14495
+|                       +--| (98.2/79)
+|                       |  |                                     +---Chryseobacterium_daeguense_DSM_19388_H560_RS0120325
+|                       |  |                                 +---| (100/100)
+|                       |  |                                 |   +---Elizabethkingia_meningoseptica_BMF97_RS08350
+|                       |  |                              +--| (96.1/99)
+|                       |  |                              |  |     +---Bizionia_myxarmorum_ES674_RS11510
+|                       |  |                              |  |  +--| (74.3/99)
+|                       |  |                              |  |  |  +----Polaribacter_irgensii_23-P_PI23P_RS09095
+|                       |  |                              |  +--| (100/100)
+|                       |  |                              |     |   +--Flavobacterium_pectinovorum_EAH81_RS04900
+|                       |  |                              |     +---| (100/100)
+|                       |  |                              |         +--Flavobacterium_tiangeerense_IQ05_RS09620
+|                       |  |                           +--| (96.3/96)
+|                       |  |                           |  |     +--------------Hymenobacter_nivis_EAH73_RS11405
+|                       |  |                           |  |  +--| (86.7/92)
+|                       |  |                           |  |  |  |   +-----Emticicia_sp._TH156_C0V77_RS04400
+|                       |  |                           |  |  |  +---| (100/100)
+|                       |  |                           |  |  |      +-----Dyadobacter_koreensis_BMY70_RS06870
+|                       |  |                           |  +--| (88.9/92)
+|                       |  |                           |     +----Algoriphagus_kandeliae_E4S40_RS03970
+|                       |  |              +------------| (100/97)
+|                       |  |              |            +----------Puniceicoccaceae_bacterium_GN221_RS04825
+|                       |  |           +--| (76.6/91)
+|                       |  |           |  +--------------------Cytobacillus_massiliigabonensis_C1726_RS15755
+|                       |  |        +--| (63.5/88)
+|                       |  |        |  |            +--------Salinicoccus_sediminis_WN59_RS02230
+|                       |  |        |  |         +--| (47.1/61)
+|                       |  |        |  |         |  +-------------Anaerolactibacter_massiliensis_C7E00_RS10205
+|                       |  |        |  |      +--| (78.7/60)
+|                       |  |        |  |      |  +------Macrococcus_hajekii_ERX37_RS03030
+|                       |  |        |  |   +--| (99.5/100)
+|                       |  |        |  |   |  +--------Shouchella_lonarensis_BLT29_RS04120
+|                       |  |        |  +---| (100/99)
+|                       |  |        |      +---------Paenibacillus_sp._Soil750_ASL11_RS24600
+|                       |  |     +--| (36.3/86)
+|                       |  |     |  +------------Clostridium_oryzae_CLORY_RS12775
+|                       |  |  +--| (92.9/97)
+|                       |  |  |  +---------------Clostridium_sp._HBUAS56010_FAY33_RS01230
+|                       |  +--| (62.1/56)
+|                       |     +--------------------Gardnerella_vaginalis_ATCC_14019_HMPREF0421_20619
+|                    +--| (90.3/79)
+|                    |  |            +-----Lactiplantibacillus_mudanjiangensis_E0E27_RS01085
+|                    |  |        +---| (100/100)
+|                    |  |        |   +----Enterococcus_florum_NRIC_RS01415
+|                    |  |     +--| (100/100)
+|                    |  |     |  |     +---Anoxybacillus_suryakundensis_ASC42_RS05435
+|                    |  |     |  |  +--| (82.2/84)
+|                    |  |     |  |  |  +---Cytobacillus_dafuensis_FSZ17_RS00035
+|                    |  |     |  +--| (99.9/100)
+|                    |  |     |     |  +---Bacillus_anthracis_CN907_RS09965
+|                    |  |     |     +--| (42.5/84)
+|                    |  |     |        +------Terribacillus_goriensis_GZ22_RS11300
+|                    |  |  +--| (97/99)
+|                    |  |  |  +---------Candidatus_Marinamargulisbacteria_bacterium_SCGC_AG-439-L15_GO733_RS01840
+|                    |  +--| (44.3/51)
+|                    |     |              +----Salinimicrobium_sediminis_CRO16_RS08080
+|                    |     |           +--| (96.1/100)
+|                    |     |           |  +--Formosa_sediminum_FNB79_RS16890
+|                    |     |        +--| (99.7/100)
+|                    |     |        |  |  +--Flavobacterium_sp._J27_CX675_RS18805
+|                    |     |        |  +--| (99.9/100)
+|                    |     |        |     +--Flavobacterium_sp._123_C8C88_RS00325
+|                    |     |     +--| (72.4/95)
+|                    |     |     |  +------Chryseobacterium_indologenes_FE904_RS03835
+|                    |     |  +--| (100/100)
+|                    |     |  |  |     +---------Bacteroidales_bacterium_KHT7_BLS88_RS10810
+|                    |     |  |  |  +--| (20.4/47)
+|                    |     |  |  |  |  +-------Arachidicoccus_ginsenosidivorans_FSB73_RS15840
+|                    |     |  |  +--| (86.1/70)
+|                    |     |  |     |     +----Mucilaginibacter_limnophilus_EOD41_RS09730
+|                    |     |  |     |  +--| (99.5/100)
+|                    |     |  |     |  |  +----Sphingobacterium_corticibacter_DC487_RS12965
+|                    |     |  |     +--| (99.8/100)
+|                    |     |  |        +------Pontibacter_arcticus_DP923_RS08250
+|                    |     +--| (98/99)
+|                    |        +-------------Treponema_sp._C6A8_T530_RS0106525
+|                 +--| (100/100)
+|                 |  |  +-----Rickettsia_typhi_str._Wilmington_RT_RS00985
+|                 |  +--| (100/100)
+|                 |     +--------Wolbachia_endosymbiont_of_Drosophila_ananassae_EA652_RS05940
+|              +--| (97.9/99)
+|              |  +------Francisella_philomiragia_LA55_RS08470
+|           +--| (90.7/97)
+|           |  +------Legionella_steigerwaltii_DYH40_RS07600
+|        +--| (100/100)
+|        |  |     +---Buchnera_aphidicola__Aphis_nerii__D9V64_RS00915
+|        |  |  +--| (100/100)
+|        |  |  |  +----Wigglesworthia_glossinidia_endosymbiont_of_Glossina_brevipalpis_WGL_RS02465
+|        |  +--| (100/98)
+|        |     +----Candidatus_Erwinia_haradaeae_E4V04_RS00625
+|     +--| (89.8/99)
+|     |  +---Saccharobesus_litoralis_C2869_RS05610
+|  +--| (100/100)
+|  |  +----Vibrio_profundi_ELZ11_RS03770
++--| (100/100)
+   +--Xenorhabdus_ehlersii_BDE27_RS10140
+
+Tree in newick format:
+
+(NC_000913.3_c2339420-2336793:0.1041666161,(((((((((((((((((Pusillimonas_sp._T7-7_PT7_RS06950:0.4638535728,(Variovorax_sp._KBW07_DBV14_RS00295:0.1556098292,Rhodoferax_fermentans_RF819_RS01585:0.2575571291)100/100:0.1289629039)39.2/99:0.0458835690,Janthinobacterium_sp._344_BM193_RS13325:0.2530140786)100/100:0.1240876769,Neisseria_cinerea_ATCC_14685_NEICINOT_RS07995:0.6350888255)98.1/100:0.1027039098,((((((((Kangiella_sediminilitoris_KS2013_RS02775:0.3361241715,Pseudoalteromonas_luteoviolacea_NCIMB_1944_N483_RS01695:0.2902429843)92.6/100:0.0677644895,(((_Haemophilus__felis_B0188_RS09430:0.1932890975,Pasteurella_sp._WM03_E4T92_RS03675:0.1869922190)99.7/100:0.0883559626,Vespertiliibacter_pulmonis_EDC46_RS01800:0.2869422558)100/100:0.1667768381,Acinetobacter_sp._CFCC_10889_AVJ19_RS06355:0.5080853992)68.5/82:0.0735600950)99.6/82:0.1165939942,Thiomicrorhabdus_sediminis_FE785_RS02010:0.4480485920)100/100:0.1832087327,(Leminorella_richardii_FX055_RS13305:0.2157969302,Pectobacterium_peruviense_G033_RS01780:0.1850508959)98.6/94:0.1008587551)100/100:0.1615461454,(Marinobacter_similis_AU14_RS06355:0.2606672379,Halieaceae_bacterium_GJU78_RS02070:0.3401169844)76.3/99:0.0490828880)67/73:0.0437119647,Salinicola_aestuarinus_DOM41_RS17035:0.2878827158)88.3/73:0.0437425054,((Pseudomonas_fluorescens_Pf29Arp_IC61_RS0113995:0.0881640747,Pseudomonas_fluorescens_F8N52_RS11320:0.0882044748)100/100:0.2119146302,Thiohalobacter_thiocyanaticus_D6C00_RS03475:0.2608075781)8.4/55:0.0215457470)99.8/98:0.0719336538,Dyella_choica_EKH80_RS02330:0.2876394162)100/100:0.2014078347)100/100:0.1719422290,(((((((Sphingobium_fuliginis_DFS08_RS03630:0.1165765328,Sphingobium_sp._D43FB_SxD43FB_RS16335:0.1488792838)13.1/92:0.0284544657,Sphingobium_sp._AP49_PMI04_RS01360:0.1232887242)100/100:0.0938125408,(Sphingorhabdus_contaminans_FOM92_RS04880:0.3821590381,Sphingopyxis_sp._Root154_ASD73_RS05135:0.1852587024)97.2/100:0.0753585949)86.4/99:0.0324698803,(Sphingomonas_psychrotolerans_CVN68_RS06925:0.1436118771,Sphingomonadaceae_bacterium_DKB74_RS17405:0.1620826837)100/100:0.0642057772)100/100:0.1497037078,((Rhodobacteraceae_bacterium_4F10_CSC82_RS01155:0.3687000852,Haematobacter_genomosp._1_CDV49_RS16570:0.1668774099)35.4/98:0.0508478150,Tabrizicola_sp._YIM_78059_EZM81_RS13660:0.1869397617)100/100:0.1634206613)98.3/100:0.0751100304,(((Pseudorhizobium_banfieldiae_NT26_RS05680:0.1330891782,Rhizobium_tubonense_CPY51_RS01390:0.1547783683)100/100:0.0993947552,(Mesorhizobium_sp._M4B.F.Ca.ET.058.02.1.1_EJ073_RS06375:0.0477221254,Mesorhizobium_tamadayense_EH240_RS34000:0.0627513820)100/100:0.1134535750)100/100:0.0732621637,Breoghania_sp._L-A4_D1F64_RS09395:0.1888809189)100/100:0.0876415326)86.2/99:0.0427619093,Gluconacetobacter_entanii_CFR72_RS06890:0.4765713807)100/100:0.2182889101)87.5/99:0.0526714403,Clostridiales_bacterium_FXX85_RS00410:0.8255406175)99.7/99:0.0728647033,(((((Serinicoccus_profundi_FA582_RS06570:0.2200489770,(Acaricomes_phytoseiuli_DSM_14247_C501_RS0104275:0.3299659176,((Cryobacterium_fucosi_E3T48_RS11760:0.2266943890,(Microbacterium_sp._Root180_ASD93_RS05515:0.1321788486,Microbacteriaceae_bacterium_BQ4139_RS02655:0.1816189896)100/100:0.0842270588)98.8/100:0.0546498146,Leucobacter_sp._OH1287_EII30_RS04135:0.5272497436)99.7/100:0.0632034792)99.8/99:0.0599012702)97.4/92:0.0426584626,((Nocardioides_sp._Leaf307_ASF50_RS10690:0.1037860403,Nocardioides_sambongensis_FIV43_RS03295:0.1433534004)100/100:0.0609518291,Aeromicrobium_sp._PE09-221_BHE97_RS14130:0.2735325632)100/100:0.0601163014)18.4/64:0.0229422589,((Nocardiopsis_chromatogenes_YIM_90109_D476_RS0111680:0.2062328139,Microtetraspora_malaysiensis_AWQ71_RS10815:0.1903055868)97.6/99:0.0395187196,(Streptomyces_sp._NRRL_F-6131_IF39_RS0104355:0.1038702984,Streptomyces_sp._MZ04_E2651_RS10480:0.1746558557)100/100:0.0830039989)25.3/62:0.0182045560)99.2/82:0.0617497911,Micromonospora_sp._MH33_B0E53_RS22590:0.2911922740)100/100:0.1528811334,(Mycobacterium_sp._GA-2829_AU194_RS11980:0.0669309054,(Mycolicibacterium_duvalii_CRI77_RS14740:0.1253899196,Mycolicibacterium_porcinum_A5717_RS03300:0.1014336584)88.8/100:0.0300256379)100/100:0.7652053078)100/100:0.0906253794)100/99:0.0835592982,(((((Nocardia_asteroides_NBRC_15531_NCAST_RS18395:0.0960748216,Rhodococcus_triatomae_BLQ89_RS19995:0.1331192572)99.6/100:0.0306930851,((((Mycobacterium_scrofulaceum_A5681_RS21095:0.0774437737,Mycobacterium_sp._E1747_A5695_RS19510:0.0878205644)99.8/100:0.0423210737,Mycobacterium_neglectum_CSQ99_RS22930:0.1214856898)92.4/100:0.0256070993,Mycobacterium_sp._1274756.6_A5643_RS14575:0.0923297921)100/100:0.0490667959,Tsukamurella_paurometabola_DYH47_RS17760:0.1310340320)36.4/94:0.0191844997)99.2/100:0.0344346074,Corynebacterium_aurimucosum_ADI99_RS05300:0.3049012631)100/100:0.0475745523,(Modestobacter_versicolor_DMO24_RS15110:0.1671909979,(Micromonospora_endophytica_D3H59_RS09485:0.1654539368,Glycomyces_tenuis_HY82_RS08445:0.1530037942)99.9/100:0.0503495620)39.3/97:0.0255262961)99.3/100:0.0427824939,(((Kitasatospora_azatica_KCTC_9699_BR98_RS22480:0.1132017742,((Streptomyces_sp._NRRL_S-646_IH68_RS0124775:0.0579102987,Streptomyces_violaceorubidus_IE94_RS0109005:0.0335973585)71/100:0.0183159101,Streptomyces_cyaneogriseus_subsp._noncyanogenus_TU94_RS16430:0.0254202157)100/100:0.0777873129)100/100:0.0667371986,(((((Microbacterium_telephonicum_C7474_RS00665:0.1442582312,Curtobacterium_sp._MCBA15_008_BIU96_RS05805:0.1511443075)100/100:0.0566936657,(Kocuria_flava_AS188_RS02835:0.1051779181,Pseudarthrobacter_chlorophenolicus_A6_ACHL_RS00040:0.1821732821)99.9/100:0.0447194110)97.3/100:0.0285375957,Demequina_aestuarii_AOP72_RS12685:0.2109958183)79.7/99:0.0230855088,(Neoactinobaculum_massilliense_EIH27_RS07030:0.3304465596,Bifidobacterium_xylocopae_CRD59_RS02720:0.2764619497)99.8/100:0.0824065190)98.9/87:0.0329705373,Jiangella_aurantiaca_E1262_RS02950:0.2324564388)96/86:0.0247807904)85.2/84:0.0282960414,(Nonomuraea_lactucae_DQW85_RS20585:0.1154730817,Microtetraspora_niveoalba_AWQ70_RS10795:0.1004922564)100/100:0.1001510812)83.1/84:0.0289167713)100/100:0.1714326036)89.6/96:0.0418451583,Thermus_thermamylovorans_ETP66_RS05875:0.4657930471)88.2/79:0.0210927000,(((Rosistilla_oblonga_CA51_RS05145:0.1909298275,Rubripirellula_tenax_Poly51_RS07160:0.2283767923)100/100:0.2892818103,Planctomycetes_bacterium_Poly30_Poly30_RS27465:0.3332964739)99.8/100:0.0954008651,NC_013967.1_1443314-1445902:0.3799897684)71.7/80:0.0343207349)95/95:0.0283566579,((((((Veillonella_tobetsuensis_VEI_RS08920:0.5593801199,Dendrosporobacter_quercicolus_BLR06_RS15410:0.3474652139)94.7/99:0.0999874209,Selenomonas_massiliensis_C8273_RS00950:0.2696785439)97.9/97:0.0719882544,((Effusibacillus_pohliae_DSM_22757_C230_RS0107410:0.2360211000,Thermoactinomyces_sp._AS95_AYX07_RS08560:0.3904250918)81.3/100:0.0516884001,(Paenibacillus_sophorae_BMX71_RS22350:0.2620018948,(Paenibacillus_sp._A3_QJ48_RS19470:0.0154603516,Paenibacillus_elgii_AV654_RS14060:0.0506618231)100/100:0.1704902622)100/100:0.1231299442)100/100:0.1184686019)96.7/96:0.0510668105,Abditibacterium_utsteinense_B1R32_RS07200:0.5655085876)99.1/98:0.0607160628,(((Leptolyngbya_sp._PCC_6406_LEP6406_RS0209300:0.6980916427,Synechococcus_sp._KORDI-100_KR100_RS05465:0.4392353177)97.5/100:0.1082153512,Dictyobacter_alpinus_EL633_RS18500:1.1792295647)57.2/95:0.0586344129,(Candidatus_Saccharimonas_aalborgensis_L336_RS03530:0.4277275051,Candidatus_Nanoperiomorbus_periodonticus_G51EAM_RS02490:0.2960478019)100/100:0.3653174041)68.3/92:0.0483184672)47.1/70:0.0295661881,(Raoultibacter_timonensis_C1722_RS16175:0.1752172419,Slackia_faecicanis_DMP07_RS08100:0.1424641278)100/100:0.2807758485)94.5/94:0.0286428825)99.9/100:0.0542337392,((((Erythrobacter_longus_EH31_RS01990:0.2682993090,Novosphingobium_ginsenosidimutans_FRF71_RS13450:0.1449537760)98.3/100:0.0570929939,Tsuneonella_amylolytica_D4766_RS00125:0.2051390592)99.8/100:0.0590293479,Sphingomonas_naasensis_E5A74_RS01510:0.1324208159)100/100:0.1531580592,((((Rhodobacter_capsulatus_FBT96_RS18405:0.0804119399,Rhodobacter_aestuarii_BW967_RS08725:0.1446751509)100/100:0.0852394702,Gemmobacter_aquaticus_FQU74_RS08795:0.1664478377)86.7/99:0.0345193315,Nioella_nitratireducens_BKY27_RS14115:0.1654721721)100/100:0.1885342874,(((Brucella_sp._09RB8910_BKD02_RS11930:0.1350677497,Hyphomicrobiales_bacterium_DUI55_RS18260:0.1795132420)100/100:0.0804886947,(Hyphomicrobiales_bacterium_DUF12_RS10060:0.0887407823,Hyphomicrobiales_bacterium_DTX57_RS17545:0.1021783322)100/100:0.0825720064)100/100:0.1246772649,Methylorubrum_salsuginis_BM140_RS14620:0.1629874359)98.7/100:0.0496460849)24.7/93:0.0378663128)100/100:0.1458770908)100/100:0.0933804638,((Derxia_gummosa_DSM_723_H566_RS0107795:0.1774983561,((Burkholderia_sp._WAC0059_CY652_RS14380:0.0781809872,Paraburkholderia_nodosa_BFD71_RS07515:0.0826945337)99.8/100:0.0327909282,Burkholderia_latens_WK25_RS04920:0.0660704637)100/100:0.0787150634)87.8/76:0.0195700293,((Tepidimonas_ignava_Tigna_RS10370:0.1130583948,Comamonas_testosteroni_DZC30_RS08385:0.1365780882)100/100:0.0653394657,(Neopusillimonas_maritima_CJP73_RS14550:0.3045671992,Duganella_sacchari_BUA36_RS20620:0.1801334227)93.5/83:0.0307316599)3.6/35:0.0125631319)100/100:0.1481166048)98.4/99:0.0536100324,Stenotrophomonas_sp._HMWF003_DBR34_RS17970:0.2400989787)99.6/100:0.0467288842,((Halomonas_sp._BC04_Q427_RS04460:0.2118647864,Gammaproteobacteria_bacterium_LSUCC0057_E3W66_RS02135:0.2879057111)2.7/60:0.0365422162,((Pseudomonas_sp._NBRC_111124_APH28_RS10150:0.0912994607,((Pseudomonas_trivialis_AA957_RS05955:0.0726029969,Pseudomonas_sp._LD120_PLD_RS09200:0.0843069081)100/100:0.0569902296,Pseudomonas_cichorii_D2G06_RS04465:0.1041283569)98.7/100:0.0417314013)100/100:0.0552906143,Pseudomonas_jinjuensis_BLR75_RS00050:0.0803391640)100/100:0.1072744472)98.8/100:0.0370503393)100/100:0.1871807042,Chimaeribacter_coloradensis_CYR32_RS12505:0.0726350506)100/100:0.0889890380,Pantoea_coffeiphila_CQW29_RS03365:0.1145413532)88.2/99:0.0560111115,(((((((((((((((Aliarcobacter_butzleri_7h1h_A7H1H_RS08450:0.1977650256,((Helicobacter_cetorum_C6H25_RS07795:0.3082826350,(Helicobacter_saguini_LS64_RS09350:0.3728183064,Helicobacter_anseris_CQA57_RS06555:0.2252308920)93.9/100:0.0494857145)57.9/100:0.0363925304,Helicobacter_sp._11-8110_CCY98_RS00745:0.2122942872)100/100:0.1117966789)99.6/100:0.0565494388,Caminibacter_pacificus_C6V80_RS03605:0.3466873476)100/100:0.1122152512,Mycoplasmopsis_canis_UFG4_MCANUFG4_RS02000:0.4781396573)92.5/73:0.0361329912,((((((Peptoniphilus_sp._BV3C26_HMPREF1253_RS01780:0.2614071834,Clostridiales_bacterium_SIT11_BN2668_RS05275:0.4853075586)96.8/100:0.0790964192,Anaerococcus_vaginalis_FXY83_RS06935:0.3092273591)100/100:0.0795986712,Eubacterium_ventriosum_ATCC_27560_EUBVEN_RS06805:0.4309494372)41.9/94:0.0343172097,(Fervidicella_metallireducens_AeB_Q428_RS06385:0.2370314660,Clostridium_haemolyticum_NCTC_8350_Z961_RS08595:0.2196609305)100/100:0.1004226034)95.8/95:0.0366573761,Thermodesulfovibrio_sp._N1_THER_RS00860:0.4511484875)41.1/40:0.0249818909,((Dictyoglomus_sp._ob1-4_AXA78_RS06030:0.3245677826,Thermovirga_lienii_DSM_17291_TLIE_RS01960:0.8408291660)99.3/78:0.1187944597,(Fusobacterium_massiliense_FY437_RS03905:0.2549045303,Sneathia_vaginalis_VC03_RS01570:0.2785392111)100/100:0.1390804814)96/39:0.0441126563)92.1/46:0.0255074183)19.1/38:0.0185193065,(Candidatus_Phytoplasma_pini_MDPP_RS00290:0.4343375662,Borreliella_turdi_DB707_RS01150:0.5185829874)99.8/96:0.0967760343)86.3/72:0.0165570972,Denitrovibrio_acetiphilus_DSM_12809_DACET_RS14495:0.6646557812)85.2/72:0.0170600760,(((((((((Chryseobacterium_daeguense_DSM_19388_H560_RS0120325:0.2149305761,Elizabethkingia_meningoseptica_BMF97_RS08350:0.2159919879)100/100:0.2101850125,((Bizionia_myxarmorum_ES674_RS11510:0.2270529228,Polaribacter_irgensii_23-P_PI23P_RS09095:0.2595052885)74.3/99:0.0491734139,(Flavobacterium_pectinovorum_EAH81_RS04900:0.1076824068,Flavobacterium_tiangeerense_IQ05_RS09620:0.1671106997)100/100:0.1986197715)100/100:0.0950148292)96.1/99:0.0951103558,((Hymenobacter_nivis_EAH73_RS11405:0.7877119007,(Emticicia_sp._TH156_C0V77_RS04400:0.3380649345,Dyadobacter_koreensis_BMY70_RS06870:0.3387239535)100/100:0.2176834418)86.7/92:0.1284931551,Algoriphagus_kandeliae_E4S40_RS03970:0.2847258341)88.9/92:0.1240748653)96.3/96:0.1137967309,Puniceicoccaceae_bacterium_GN221_RS04825:0.5890637677)100/97:0.6403549042,Cytobacillus_massiliigabonensis_C1726_RS15755:1.0385785062)76.6/91:0.1784455634,((((Salinicoccus_sediminis_WN59_RS02230:0.4759470633,Anaerolactibacter_massiliensis_C7E00_RS10205:0.7061123274)47.1/61:0.1548176763,Macrococcus_hajekii_ERX37_RS03030:0.3934979917)78.7/60:0.0732186540,Shouchella_lonarensis_BLT29_RS04120:0.4634976823)99.5/100:0.1219461909,Paenibacillus_sp._Soil750_ASL11_RS24600:0.5111764130)100/99:0.2346523197)63.5/88:0.0482098651,Clostridium_oryzae_CLORY_RS12775:0.6663894521)36.3/86:0.0378382750,Clostridium_sp._HBUAS56010_FAY33_RS01230:0.8315426579)92.9/97:0.0527254157,Gardnerella_vaginalis_ATCC_14019_HMPREF0421_20619:1.0475550923)62.1/56:0.0351156395)98.2/79:0.0340220649,((((Lactiplantibacillus_mudanjiangensis_E0E27_RS01085:0.2986470058,Enterococcus_florum_NRIC_RS01415:0.2660012824)100/100:0.2344906898,((Anoxybacillus_suryakundensis_ASC42_RS05435:0.2267355135,Cytobacillus_dafuensis_FSZ17_RS00035:0.2064315335)82.2/84:0.0481671850,(Bacillus_anthracis_CN907_RS09965:0.1988244691,Terribacillus_goriensis_GZ22_RS11300:0.3698256374)42.5/84:0.0470003933)99.9/100:0.0738353641)100/100:0.1267198026,Candidatus_Marinamargulisbacteria_bacterium_SCGC_AG-439-L15_GO733_RS01840:0.5294067760)97/99:0.0570460534,(((((Salinimicrobium_sediminis_CRO16_RS08080:0.2810971574,Formosa_sediminum_FNB79_RS16890:0.1412748816)96.1/100:0.0680524217,(Flavobacterium_sp._J27_CX675_RS18805:0.1503055140,Flavobacterium_sp._123_C8C88_RS00325:0.1842034455)99.9/100:0.0563045733)99.7/100:0.0707794015,Chryseobacterium_indologenes_FE904_RS03835:0.3862009533)72.4/95:0.0477721005,((Bacteroidales_bacterium_KHT7_BLS88_RS10810:0.5260057658,Arachidicoccus_ginsenosidivorans_FSB73_RS15840:0.4298922711)20.4/47:0.0579399290,((Mucilaginibacter_limnophilus_EOD41_RS09730:0.2540789619,Sphingobacterium_corticibacter_DC487_RS12965:0.2810772145)99.5/100:0.0856571086,Pontibacter_arcticus_DP923_RS08250:0.3816138698)99.8/100:0.0889908052)86.1/70:0.0886415965)100/100:0.1297907888,Treponema_sp._C6A8_T530_RS0106525:0.7066654098)98/99:0.0694962018)44.3/51:0.0255499237)90.3/79:0.0519807170,(Rickettsia_typhi_str._Wilmington_RT_RS00985:0.3147878839,Wolbachia_endosymbiont_of_Drosophila_ananassae_EA652_RS05940:0.4582115768)100/100:0.1796720842)100/100:0.1002132376,Francisella_philomiragia_LA55_RS08470:0.3924142553)97.9/99:0.0730056612,Legionella_steigerwaltii_DYH40_RS07600:0.3469541184)90.7/97:0.0515466353,((Buchnera_aphidicola__Aphis_nerii__D9V64_RS00915:0.1991021999,Wigglesworthia_glossinidia_endosymbiont_of_Glossina_brevipalpis_WGL_RS02465:0.2801506067)100/100:0.1045331749,Candidatus_Erwinia_haradaeae_E4V04_RS00625:0.2858551627)100/98:0.1021283742)100/100:0.1130676653,Saccharobesus_litoralis_C2869_RS05610:0.2185520624)89.8/99:0.0564909579,Vibrio_profundi_ELZ11_RS03770:0.2480439860)100/100:0.1543381136,Xenorhabdus_ehlersii_BDE27_RS10140:0.1417800774)100/100:0.1726015968);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -395527.496135
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--NC_000913.3_c2339420-2336793
+|
+|                                                  +--------Pusillimonas_sp._T7-7_PT7_RS06950
+|                                               +--| (99)
+|                                               |  |  +--Variovorax_sp._KBW07_DBV14_RS00295
+|                                               |  +--| (100)
+|                                               |     +----Rhodoferax_fermentans_RF819_RS01585
+|                                            +--| (100)
+|                                            |  +----Janthinobacterium_sp._344_BM193_RS13325
+|                                         +--| (100)
+|                                         |  +-----------Neisseria_cinerea_ATCC_14685_NEICINOT_RS07995
+|                                      +--| (100)
+|                                      |  |                        +-----Kangiella_sediminilitoris_KS2013_RS02775
+|                                      |  |                     +--| (100)
+|                                      |  |                     |  +----Pseudoalteromonas_luteoviolacea_NCIMB_1944_N483_RS01695
+|                                      |  |                  +--| (82)
+|                                      |  |                  |  |        +--_Haemophilus__felis_B0188_RS09430
+|                                      |  |                  |  |     +--| (100)
+|                                      |  |                  |  |     |  +--Pasteurella_sp._WM03_E4T92_RS03675
+|                                      |  |                  |  |  +--| (100)
+|                                      |  |                  |  |  |  +----Vespertiliibacter_pulmonis_EDC46_RS01800
+|                                      |  |                  |  +--| (82)
+|                                      |  |                  |     +---------Acinetobacter_sp._CFCC_10889_AVJ19_RS06355
+|                                      |  |               +--| (100)
+|                                      |  |               |  +--------Thiomicrorhabdus_sediminis_FE785_RS02010
+|                                      |  |            +--| (100)
+|                                      |  |            |  |  +---Leminorella_richardii_FX055_RS13305
+|                                      |  |            |  +--| (94)
+|                                      |  |            |     +--Pectobacterium_peruviense_G033_RS01780
+|                                      |  |         +--| (73)
+|                                      |  |         |  |  +----Marinobacter_similis_AU14_RS06355
+|                                      |  |         |  +--| (99)
+|                                      |  |         |     +-----Halieaceae_bacterium_GJU78_RS02070
+|                                      |  |      +--| (73)
+|                                      |  |      |  +----Salinicola_aestuarinus_DOM41_RS17035
+|                                      |  |   +--| (98)
+|                                      |  |   |  |      +--Pseudomonas_fluorescens_Pf29Arp_IC61_RS0113995
+|                                      |  |   |  |  +---| (100)
+|                                      |  |   |  |  |   +--Pseudomonas_fluorescens_F8N52_RS11320
+|                                      |  |   |  +--| (55)
+|                                      |  |   |     +----Thiohalobacter_thiocyanaticus_D6C00_RS03475
+|                                      |  +---| (100)
+|                                      |      +----Dyella_choica_EKH80_RS02330
+|                                   +--| (99)
+|                                   |  |                     +--Sphingobium_fuliginis_DFS08_RS03630
+|                                   |  |                  +--| (92)
+|                                   |  |                  |  +--Sphingobium_sp._D43FB_SxD43FB_RS16335
+|                                   |  |               +--| (100)
+|                                   |  |               |  +--Sphingobium_sp._AP49_PMI04_RS01360
+|                                   |  |            +--| (99)
+|                                   |  |            |  |  +------Sphingorhabdus_contaminans_FOM92_RS04880
+|                                   |  |            |  +--| (100)
+|                                   |  |            |     +--Sphingopyxis_sp._Root154_ASD73_RS05135
+|                                   |  |         +--| (100)
+|                                   |  |         |  |  +--Sphingomonas_psychrotolerans_CVN68_RS06925
+|                                   |  |         |  +--| (100)
+|                                   |  |         |     +--Sphingomonadaceae_bacterium_DKB74_RS17405
+|                                   |  |      +--| (100)
+|                                   |  |      |  |     +------Rhodobacteraceae_bacterium_4F10_CSC82_RS01155
+|                                   |  |      |  |  +--| (98)
+|                                   |  |      |  |  |  +--Haematobacter_genomosp._1_CDV49_RS16570
+|                                   |  |      |  +--| (100)
+|                                   |  |      |     +--Tabrizicola_sp._YIM_78059_EZM81_RS13660
+|                                   |  |   +--| (99)
+|                                   |  |   |  |        +--Pseudorhizobium_banfieldiae_NT26_RS05680
+|                                   |  |   |  |     +--| (100)
+|                                   |  |   |  |     |  +--Rhizobium_tubonense_CPY51_RS01390
+|                                   |  |   |  |  +--| (100)
+|                                   |  |   |  |  |  |  +--Mesorhizobium_sp._M4B.F.Ca.ET.058.02.1.1_EJ073_RS06375
+|                                   |  |   |  |  |  +--| (100)
+|                                   |  |   |  |  |     +--Mesorhizobium_tamadayense_EH240_RS34000
+|                                   |  |   |  +--| (100)
+|                                   |  |   |     +--Breoghania_sp._L-A4_D1F64_RS09395
+|                                   |  +---| (100)
+|                                   |      +--------Gluconacetobacter_entanii_CFR72_RS06890
+|                                +--| (99)
+|                                |  +---------------Clostridiales_bacterium_FXX85_RS00410
+|                             +--| (99)
+|                             |  |              +---Serinicoccus_profundi_FA582_RS06570
+|                             |  |           +--| (92)
+|                             |  |           |  |  +-----Acaricomes_phytoseiuli_DSM_14247_C501_RS0104275
+|                             |  |           |  +--| (99)
+|                             |  |           |     |     +---Cryobacterium_fucosi_E3T48_RS11760
+|                             |  |           |     |  +--| (100)
+|                             |  |           |     |  |  |  +--Microbacterium_sp._Root180_ASD93_RS05515
+|                             |  |           |     |  |  +--| (100)
+|                             |  |           |     |  |     +--Microbacteriaceae_bacterium_BQ4139_RS02655
+|                             |  |           |     +--| (100)
+|                             |  |           |        +---------Leucobacter_sp._OH1287_EII30_RS04135
+|                             |  |        +--| (64)
+|                             |  |        |  |     +--Nocardioides_sp._Leaf307_ASF50_RS10690
+|                             |  |        |  |  +--| (100)
+|                             |  |        |  |  |  +--Nocardioides_sambongensis_FIV43_RS03295
+|                             |  |        |  +--| (100)
+|                             |  |        |     +----Aeromicrobium_sp._PE09-221_BHE97_RS14130
+|                             |  |     +--| (82)
+|                             |  |     |  |     +---Nocardiopsis_chromatogenes_YIM_90109_D476_RS0111680
+|                             |  |     |  |  +--| (99)
+|                             |  |     |  |  |  +--Microtetraspora_malaysiensis_AWQ71_RS10815
+|                             |  |     |  +--| (62)
+|                             |  |     |     |  +--Streptomyces_sp._NRRL_F-6131_IF39_RS0104355
+|                             |  |     |     +--| (100)
+|                             |  |     |        +--Streptomyces_sp._MZ04_E2651_RS10480
+|                             |  |  +--| (100)
+|                             |  |  |  +----Micromonospora_sp._MH33_B0E53_RS22590
+|                             |  +--| (100)
+|                             |     |              +--Mycobacterium_sp._GA-2829_AU194_RS11980
+|                             |     +--------------| (100)
+|                             |                    |  +--Mycolicibacterium_duvalii_CRI77_RS14740
+|                             |                    +--| (100)
+|                             |                       +--Mycolicibacterium_porcinum_A5717_RS03300
+|                          +--| (96)
+|                          |  |              +--Nocardia_asteroides_NBRC_15531_NCAST_RS18395
+|                          |  |           +--| (100)
+|                          |  |           |  +--Rhodococcus_triatomae_BLQ89_RS19995
+|                          |  |        +--| (100)
+|                          |  |        |  |           +--Mycobacterium_scrofulaceum_A5681_RS21095
+|                          |  |        |  |        +--| (100)
+|                          |  |        |  |        |  +--Mycobacterium_sp._E1747_A5695_RS19510
+|                          |  |        |  |     +--| (100)
+|                          |  |        |  |     |  +--Mycobacterium_neglectum_CSQ99_RS22930
+|                          |  |        |  |  +--| (100)
+|                          |  |        |  |  |  +--Mycobacterium_sp._1274756.6_A5643_RS14575
+|                          |  |        |  +--| (94)
+|                          |  |        |     +--Tsukamurella_paurometabola_DYH47_RS17760
+|                          |  |     +--| (100)
+|                          |  |     |  +-----Corynebacterium_aurimucosum_ADI99_RS05300
+|                          |  |  +--| (100)
+|                          |  |  |  |  +--Modestobacter_versicolor_DMO24_RS15110
+|                          |  |  |  +--| (97)
+|                          |  |  |     |  +--Micromonospora_endophytica_D3H59_RS09485
+|                          |  |  |     +--| (100)
+|                          |  |  |        +--Glycomyces_tenuis_HY82_RS08445
+|                          |  +--| (100)
+|                          |     |        +--Kitasatospora_azatica_KCTC_9699_BR98_RS22480
+|                          |     |     +--| (100)
+|                          |     |     |  |     +--Streptomyces_sp._NRRL_S-646_IH68_RS0124775
+|                          |     |     |  |  +--| (100)
+|                          |     |     |  |  |  +--Streptomyces_violaceorubidus_IE94_RS0109005
+|                          |     |     |  +--| (100)
+|                          |     |     |     +--Streptomyces_cyaneogriseus_subsp._noncyanogenus_TU94_RS16430
+|                          |     |  +--| (84)
+|                          |     |  |  |              +--Microbacterium_telephonicum_C7474_RS00665
+|                          |     |  |  |           +--| (100)
+|                          |     |  |  |           |  +--Curtobacterium_sp._MCBA15_008_BIU96_RS05805
+|                          |     |  |  |        +--| (100)
+|                          |     |  |  |        |  |  +--Kocuria_flava_AS188_RS02835
+|                          |     |  |  |        |  +--| (100)
+|                          |     |  |  |        |     +--Pseudarthrobacter_chlorophenolicus_A6_ACHL_RS00040
+|                          |     |  |  |     +--| (99)
+|                          |     |  |  |     |  +---Demequina_aestuarii_AOP72_RS12685
+|                          |     |  |  |  +--| (87)
+|                          |     |  |  |  |  |  +-----Neoactinobaculum_massilliense_EIH27_RS07030
+|                          |     |  |  |  |  +--| (100)
+|                          |     |  |  |  |     +----Bifidobacterium_xylocopae_CRD59_RS02720
+|                          |     |  |  +--| (86)
+|                          |     |  |     +---Jiangella_aurantiaca_E1262_RS02950
+|                          |     +--| (84)
+|                          |        |  +--Nonomuraea_lactucae_DQW85_RS20585
+|                          |        +--| (100)
+|                          |           +--Microtetraspora_niveoalba_AWQ70_RS10795
+|                       +--| (79)
+|                       |  +--------Thermus_thermamylovorans_ETP66_RS05875
+|                    +--| (95)
+|                    |  |          +--Rosistilla_oblonga_CA51_RS05145
+|                    |  |     +----| (100)
+|                    |  |     |    +---Rubripirellula_tenax_Poly51_RS07160
+|                    |  |  +--| (100)
+|                    |  |  |  +-----Planctomycetes_bacterium_Poly30_Poly30_RS27465
+|                    |  +--| (80)
+|                    |     +------NC_013967.1_1443314-1445902
+|                 +--| (100)
+|                 |  |                 +----------Veillonella_tobetsuensis_VEI_RS08920
+|                 |  |              +--| (99)
+|                 |  |              |  +------Dendrosporobacter_quercicolus_BLR06_RS15410
+|                 |  |           +--| (97)
+|                 |  |           |  +----Selenomonas_massiliensis_C8273_RS00950
+|                 |  |        +--| (96)
+|                 |  |        |  |     +---Effusibacillus_pohliae_DSM_22757_C230_RS0107410
+|                 |  |        |  |  +--| (100)
+|                 |  |        |  |  |  +------Thermoactinomyces_sp._AS95_AYX07_RS08560
+|                 |  |        |  +--| (100)
+|                 |  |        |     |  +----Paenibacillus_sophorae_BMX71_RS22350
+|                 |  |        |     +--| (100)
+|                 |  |        |        |  +--Paenibacillus_sp._A3_QJ48_RS19470
+|                 |  |        |        +--| (100)
+|                 |  |        |           +--Paenibacillus_elgii_AV654_RS14060
+|                 |  |     +--| (98)
+|                 |  |     |  +----------Abditibacterium_utsteinense_B1R32_RS07200
+|                 |  |  +--| (70)
+|                 |  |  |  |        +-------------Leptolyngbya_sp._PCC_6406_LEP6406_RS0209300
+|                 |  |  |  |     +--| (100)
+|                 |  |  |  |     |  +-------Synechococcus_sp._KORDI-100_KR100_RS05465
+|                 |  |  |  |  +--| (95)
+|                 |  |  |  |  |  +----------------------Dictyobacter_alpinus_EL633_RS18500
+|                 |  |  |  +--| (92)
+|                 |  |  |     |      +-------Candidatus_Saccharimonas_aalborgensis_L336_RS03530
+|                 |  |  |     +------| (100)
+|                 |  |  |            +-----Candidatus_Nanoperiomorbus_periodonticus_G51EAM_RS02490
+|                 |  +--| (94)
+|                 |     |    +--Raoultibacter_timonensis_C1722_RS16175
+|                 |     +----| (100)
+|                 |          +--Slackia_faecicanis_DMP07_RS08100
+|              +--| (100)
+|              |  |           +----Erythrobacter_longus_EH31_RS01990
+|              |  |        +--| (100)
+|              |  |        |  +--Novosphingobium_ginsenosidimutans_FRF71_RS13450
+|              |  |     +--| (100)
+|              |  |     |  +---Tsuneonella_amylolytica_D4766_RS00125
+|              |  |  +--| (100)
+|              |  |  |  +--Sphingomonas_naasensis_E5A74_RS01510
+|              |  +--| (100)
+|              |     |           +--Rhodobacter_capsulatus_FBT96_RS18405
+|              |     |        +--| (100)
+|              |     |        |  +--Rhodobacter_aestuarii_BW967_RS08725
+|              |     |     +--| (99)
+|              |     |     |  +--Gemmobacter_aquaticus_FQU74_RS08795
+|              |     |  +--| (100)
+|              |     |  |  +--Nioella_nitratireducens_BKY27_RS14115
+|              |     +--| (93)
+|              |        |        +--Brucella_sp._09RB8910_BKD02_RS11930
+|              |        |     +--| (100)
+|              |        |     |  +--Hyphomicrobiales_bacterium_DUI55_RS18260
+|              |        |  +--| (100)
+|              |        |  |  |  +--Hyphomicrobiales_bacterium_DUF12_RS10060
+|              |        |  |  +--| (100)
+|              |        |  |     +--Hyphomicrobiales_bacterium_DTX57_RS17545
+|              |        +--| (100)
+|              |           +--Methylorubrum_salsuginis_BM140_RS14620
+|           +--| (99)
+|           |  |        +--Derxia_gummosa_DSM_723_H566_RS0107795
+|           |  |     +--| (76)
+|           |  |     |  |     +--Burkholderia_sp._WAC0059_CY652_RS14380
+|           |  |     |  |  +--| (100)
+|           |  |     |  |  |  +--Paraburkholderia_nodosa_BFD71_RS07515
+|           |  |     |  +--| (100)
+|           |  |     |     +--Burkholderia_latens_WK25_RS04920
+|           |  |  +--| (58)
+|           |  |  |  |  +-----Neopusillimonas_maritima_CJP73_RS14550
+|           |  |  |  +--| (83)
+|           |  |  |     +--Duganella_sacchari_BUA36_RS20620
+|           |  +--| (100)
+|           |     |  +--Tepidimonas_ignava_Tigna_RS10370
+|           |     +--| (100)
+|           |        +--Comamonas_testosteroni_DZC30_RS08385
+|        +--| (100)
+|        |  +---Stenotrophomonas_sp._HMWF003_DBR34_RS17970
+|     +--| (100)
+|     |  |     +---Halomonas_sp._BC04_Q427_RS04460
+|     |  |  +--| (60)
+|     |  |  |  +----Gammaproteobacteria_bacterium_LSUCC0057_E3W66_RS02135
+|     |  +--| (100)
+|     |     |     +--Pseudomonas_sp._NBRC_111124_APH28_RS10150
+|     |     |  +--| (100)
+|     |     |  |  |     +--Pseudomonas_trivialis_AA957_RS05955
+|     |     |  |  |  +--| (100)
+|     |     |  |  |  |  +--Pseudomonas_sp._LD120_PLD_RS09200
+|     |     |  |  +--| (100)
+|     |     |  |     +--Pseudomonas_cichorii_D2G06_RS04465
+|     |     +--| (100)
+|     |        +--Pseudomonas_jinjuensis_BLR75_RS00050
+|  +--| (100)
+|  |  +--Chimaeribacter_coloradensis_CYR32_RS12505
++--| (99)
+|  +--Pantoea_coffeiphila_CQW29_RS03365
+|
+|                                            +---Aliarcobacter_butzleri_7h1h_A7H1H_RS08450
+|                                         +--| (100)
+|                                         |  |     +-----Helicobacter_cetorum_C6H25_RS07795
+|                                         |  |  +--| (100)
+|                                         |  |  |  |  +------Helicobacter_saguini_LS64_RS09350
+|                                         |  |  |  +--| (100)
+|                                         |  |  |     +---Helicobacter_anseris_CQA57_RS06555
+|                                         |  +--| (100)
+|                                         |     +---Helicobacter_sp._11-8110_CCY98_RS00745
+|                                      +--| (100)
+|                                      |  +------Caminibacter_pacificus_C6V80_RS03605
+|                                   +--| (73)
+|                                   |  +--------Mycoplasmopsis_canis_UFG4_MCANUFG4_RS02000
+|                                +--| (38)
+|                                |  |                 +----Peptoniphilus_sp._BV3C26_HMPREF1253_RS01780
+|                                |  |              +--| (100)
+|                                |  |              |  +--------Clostridiales_bacterium_SIT11_BN2668_RS05275
+|                                |  |           +--| (100)
+|                                |  |           |  +-----Anaerococcus_vaginalis_FXY83_RS06935
+|                                |  |        +--| (94)
+|                                |  |        |  +-------Eubacterium_ventriosum_ATCC_27560_EUBVEN_RS06805
+|                                |  |     +--| (95)
+|                                |  |     |  |  +---Fervidicella_metallireducens_AeB_Q428_RS06385
+|                                |  |     |  +--| (100)
+|                                |  |     |     +---Clostridium_haemolyticum_NCTC_8350_Z961_RS08595
+|                                |  |  +--| (40)
+|                                |  |  |  +--------Thermodesulfovibrio_sp._N1_THER_RS00860
+|                                |  +--| (46)
+|                                |     |     +-----Dictyoglomus_sp._ob1-4_AXA78_RS06030
+|                                |     |  +--| (78)
+|                                |     |  |  +----------------Thermovirga_lienii_DSM_17291_TLIE_RS01960
+|                                |     +--| (39)
+|                                |        |  +----Fusobacterium_massiliense_FY437_RS03905
+|                                |        +--| (100)
+|                                |           +----Sneathia_vaginalis_VC03_RS01570
+|                             +--| (72)
+|                             |  |  +-------Candidatus_Phytoplasma_pini_MDPP_RS00290
+|                             |  +--| (96)
+|                             |     +---------Borreliella_turdi_DB707_RS01150
+|                          +--| (72)
+|                          |  +------------Denitrovibrio_acetiphilus_DSM_12809_DACET_RS14495
+|                       +--| (79)
+|                       |  |                                    +---Chryseobacterium_daeguense_DSM_19388_H560_RS0120325
+|                       |  |                                +---| (100)
+|                       |  |                                |   +---Elizabethkingia_meningoseptica_BMF97_RS08350
+|                       |  |                             +--| (99)
+|                       |  |                             |  |     +---Bizionia_myxarmorum_ES674_RS11510
+|                       |  |                             |  |  +--| (99)
+|                       |  |                             |  |  |  +----Polaribacter_irgensii_23-P_PI23P_RS09095
+|                       |  |                             |  +--| (100)
+|                       |  |                             |     |   +--Flavobacterium_pectinovorum_EAH81_RS04900
+|                       |  |                             |     +---| (100)
+|                       |  |                             |         +--Flavobacterium_tiangeerense_IQ05_RS09620
+|                       |  |                          +--| (96)
+|                       |  |                          |  |     +--------------Hymenobacter_nivis_EAH73_RS11405
+|                       |  |                          |  |  +--| (92)
+|                       |  |                          |  |  |  |   +-----Emticicia_sp._TH156_C0V77_RS04400
+|                       |  |                          |  |  |  +---| (100)
+|                       |  |                          |  |  |      +-----Dyadobacter_koreensis_BMY70_RS06870
+|                       |  |                          |  +--| (92)
+|                       |  |                          |     +----Algoriphagus_kandeliae_E4S40_RS03970
+|                       |  |              +-----------| (97)
+|                       |  |              |           +----------Puniceicoccaceae_bacterium_GN221_RS04825
+|                       |  |           +--| (91)
+|                       |  |           |  +-------------------Cytobacillus_massiliigabonensis_C1726_RS15755
+|                       |  |        +--| (88)
+|                       |  |        |  |            +--------Salinicoccus_sediminis_WN59_RS02230
+|                       |  |        |  |         +--| (61)
+|                       |  |        |  |         |  +-------------Anaerolactibacter_massiliensis_C7E00_RS10205
+|                       |  |        |  |      +--| (60)
+|                       |  |        |  |      |  +------Macrococcus_hajekii_ERX37_RS03030
+|                       |  |        |  |   +--| (100)
+|                       |  |        |  |   |  +--------Shouchella_lonarensis_BLT29_RS04120
+|                       |  |        |  +---| (99)
+|                       |  |        |      +---------Paenibacillus_sp._Soil750_ASL11_RS24600
+|                       |  |     +--| (86)
+|                       |  |     |  +------------Clostridium_oryzae_CLORY_RS12775
+|                       |  |  +--| (97)
+|                       |  |  |  +---------------Clostridium_sp._HBUAS56010_FAY33_RS01230
+|                       |  +--| (56)
+|                       |     +--------------------Gardnerella_vaginalis_ATCC_14019_HMPREF0421_20619
+|                    +--| (79)
+|                    |  |            +-----Lactiplantibacillus_mudanjiangensis_E0E27_RS01085
+|                    |  |        +---| (100)
+|                    |  |        |   +----Enterococcus_florum_NRIC_RS01415
+|                    |  |     +--| (100)
+|                    |  |     |  |     +---Anoxybacillus_suryakundensis_ASC42_RS05435
+|                    |  |     |  |  +--| (84)
+|                    |  |     |  |  |  +---Cytobacillus_dafuensis_FSZ17_RS00035
+|                    |  |     |  +--| (100)
+|                    |  |     |     |  +---Bacillus_anthracis_CN907_RS09965
+|                    |  |     |     +--| (84)
+|                    |  |     |        +------Terribacillus_goriensis_GZ22_RS11300
+|                    |  |  +--| (99)
+|                    |  |  |  +---------Candidatus_Marinamargulisbacteria_bacterium_SCGC_AG-439-L15_GO733_RS01840
+|                    |  +--| (51)
+|                    |     |              +----Salinimicrobium_sediminis_CRO16_RS08080
+|                    |     |           +--| (100)
+|                    |     |           |  +--Formosa_sediminum_FNB79_RS16890
+|                    |     |        +--| (100)
+|                    |     |        |  |  +--Flavobacterium_sp._J27_CX675_RS18805
+|                    |     |        |  +--| (100)
+|                    |     |        |     +--Flavobacterium_sp._123_C8C88_RS00325
+|                    |     |     +--| (95)
+|                    |     |     |  +------Chryseobacterium_indologenes_FE904_RS03835
+|                    |     |  +--| (100)
+|                    |     |  |  |     +----------Bacteroidales_bacterium_KHT7_BLS88_RS10810
+|                    |     |  |  |  +--| (52)
+|                    |     |  |  |  |  |     +----Mucilaginibacter_limnophilus_EOD41_RS09730
+|                    |     |  |  |  |  |  +--| (100)
+|                    |     |  |  |  |  |  |  +----Sphingobacterium_corticibacter_DC487_RS12965
+|                    |     |  |  |  |  +--| (100)
+|                    |     |  |  |  |     +------Pontibacter_arcticus_DP923_RS08250
+|                    |     |  |  +--| (70)
+|                    |     |  |     +--------Arachidicoccus_ginsenosidivorans_FSB73_RS15840
+|                    |     +--| (99)
+|                    |        +-------------Treponema_sp._C6A8_T530_RS0106525
+|                 +--| (100)
+|                 |  |  +-----Rickettsia_typhi_str._Wilmington_RT_RS00985
+|                 |  +--| (100)
+|                 |     +--------Wolbachia_endosymbiont_of_Drosophila_ananassae_EA652_RS05940
+|              +--| (99)
+|              |  +------Francisella_philomiragia_LA55_RS08470
+|           +--| (97)
+|           |  +------Legionella_steigerwaltii_DYH40_RS07600
+|        +--| (100)
+|        |  |     +---Buchnera_aphidicola__Aphis_nerii__D9V64_RS00915
+|        |  |  +--| (100)
+|        |  |  |  +----Wigglesworthia_glossinidia_endosymbiont_of_Glossina_brevipalpis_WGL_RS02465
+|        |  +--| (98)
+|        |     +----Candidatus_Erwinia_haradaeae_E4V04_RS00625
+|     +--| (99)
+|     |  +---Saccharobesus_litoralis_C2869_RS05610
+|  +--| (100)
+|  |  +----Vibrio_profundi_ELZ11_RS03770
++--| (100)
+   +--Xenorhabdus_ehlersii_BDE27_RS10140
+
+
+Consensus tree in newick format: 
+
+(NC_000913.3_c2339420-2336793:0.1042879271,(((((((((((((((((Pusillimonas_sp._T7-7_PT7_RS06950:0.4636821416,(Variovorax_sp._KBW07_DBV14_RS00295:0.1555841423,Rhodoferax_fermentans_RF819_RS01585:0.2573992829)100:0.1289198544)99:0.0459173786,Janthinobacterium_sp._344_BM193_RS13325:0.2528728202)100:0.1239560752,Neisseria_cinerea_ATCC_14685_NEICINOT_RS07995:0.6347445002)100:0.1027448632,((((((((Kangiella_sediminilitoris_KS2013_RS02775:0.3359485995,Pseudoalteromonas_luteoviolacea_NCIMB_1944_N483_RS01695:0.2901340514)100:0.0677494244,(((_Haemophilus__felis_B0188_RS09430:0.1932012285,Pasteurella_sp._WM03_E4T92_RS03675:0.1868890003)100:0.0883092920,Vespertiliibacter_pulmonis_EDC46_RS01800:0.2867973234)100:0.1667337262,Acinetobacter_sp._CFCC_10889_AVJ19_RS06355:0.5078407258)82:0.0734847747)82:0.1165512303,Thiomicrorhabdus_sediminis_FE785_RS02010:0.4478493964)100:0.1831000464,(Leminorella_richardii_FX055_RS13305:0.2156697815,Pectobacterium_peruviense_G033_RS01780:0.1850073677)94:0.1008219369)100:0.1615071561,(Marinobacter_similis_AU14_RS06355:0.2605550704,Halieaceae_bacterium_GJU78_RS02070:0.3399391242)99:0.0490893761)73:0.0437003773,Salinicola_aestuarinus_DOM41_RS17035:0.2877410412)73:0.0437249722,((Pseudomonas_fluorescens_Pf29Arp_IC61_RS0113995:0.0881246334,Pseudomonas_fluorescens_F8N52_RS11320:0.0881733062)100:0.2118305508,Thiohalobacter_thiocyanaticus_D6C00_RS03475:0.2606780895)55:0.0215460796)98:0.0718940571,Dyella_choica_EKH80_RS02330:0.2875045014)100:0.2012152529)100:0.1716331455,(((((((Sphingobium_fuliginis_DFS08_RS03630:0.1165253436,Sphingobium_sp._D43FB_SxD43FB_RS16335:0.1488169237)92:0.0284473184,Sphingobium_sp._AP49_PMI04_RS01360:0.1232548802)100:0.0937506858,(Sphingorhabdus_contaminans_FOM92_RS04880:0.3819721470,Sphingopyxis_sp._Root154_ASD73_RS05135:0.1851915256)100:0.0753246620)99:0.0324632661,(Sphingomonas_psychrotolerans_CVN68_RS06925:0.1435659510,Sphingomonadaceae_bacterium_DKB74_RS17405:0.1619999292)100:0.0642121035)100:0.1496800976,((Rhodobacteraceae_bacterium_4F10_CSC82_RS01155:0.3685456362,Haematobacter_genomosp._1_CDV49_RS16570:0.1668165709)98:0.0507080995,Tabrizicola_sp._YIM_78059_EZM81_RS13660:0.1869731317)100:0.1632241013)100:0.0749922207,(((Pseudorhizobium_banfieldiae_NT26_RS05680:0.1330519498,Rhizobium_tubonense_CPY51_RS01390:0.1547001221)100:0.0993698443,(Mesorhizobium_sp._M4B.F.Ca.ET.058.02.1.1_EJ073_RS06375:0.0477027269,Mesorhizobium_tamadayense_EH240_RS34000:0.0627287645)100:0.1134027248)100:0.0732557687,Breoghania_sp._L-A4_D1F64_RS09395:0.1887641113)100:0.0876667458)99:0.0426863046,Gluconacetobacter_entanii_CFR72_RS06890:0.4765050264)100:0.2182537863)99:0.0525853036,Clostridiales_bacterium_FXX85_RS00410:0.8251868471)99:0.0727438351,(((((Serinicoccus_profundi_FA582_RS06570:0.2200073284,(Acaricomes_phytoseiuli_DSM_14247_C501_RS0104275:0.3298393252,((Cryobacterium_fucosi_E3T48_RS11760:0.2266060820,(Microbacterium_sp._Root180_ASD93_RS05515:0.1321258792,Microbacteriaceae_bacterium_BQ4139_RS02655:0.1815441166)100:0.0841969274)100:0.0546047085,Leucobacter_sp._OH1287_EII30_RS04135:0.5270168557)100:0.0631870099)99:0.0598654516)92:0.0426296949,((Nocardioides_sp._Leaf307_ASF50_RS10690:0.1037900252,Nocardioides_sambongensis_FIV43_RS03295:0.1432526875)100:0.0609175347,Aeromicrobium_sp._PE09-221_BHE97_RS14130:0.2734707285)100:0.0601098448)64:0.0229277068,((Nocardiopsis_chromatogenes_YIM_90109_D476_RS0111680:0.2061495996,Microtetraspora_malaysiensis_AWQ71_RS10815:0.1902478995)99:0.0395123892,(Streptomyces_sp._NRRL_F-6131_IF39_RS0104355:0.1038189276,Streptomyces_sp._MZ04_E2651_RS10480:0.1745977019)100:0.0829293310)62:0.0182318458)82:0.0617005011,Micromonospora_sp._MH33_B0E53_RS22590:0.2911503295)100:0.1528454858,(Mycobacterium_sp._GA-2829_AU194_RS11980:0.0670198826,(Mycolicibacterium_duvalii_CRI77_RS14740:0.1253356573,Mycolicibacterium_porcinum_A5717_RS03300:0.1013939267)100:0.0299211594)100:0.7651221927)100:0.0907012135)99:0.0835450219,(((((Nocardia_asteroides_NBRC_15531_NCAST_RS18395:0.0960403795,Rhodococcus_triatomae_BLQ89_RS19995:0.1330745950)100:0.0306945626,((((Mycobacterium_scrofulaceum_A5681_RS21095:0.0774268427,Mycobacterium_sp._E1747_A5695_RS19510:0.0877960662)100:0.0423022189,Mycobacterium_neglectum_CSQ99_RS22930:0.1214436733)100:0.0256094823,Mycobacterium_sp._1274756.6_A5643_RS14575:0.0923172612)100:0.0490384299,Tsukamurella_paurometabola_DYH47_RS17760:0.1309868427)94:0.0191659835)100:0.0344295927,Corynebacterium_aurimucosum_ADI99_RS05300:0.3047773997)100:0.0474980394,(Modestobacter_versicolor_DMO24_RS15110:0.1671939107,(Micromonospora_endophytica_D3H59_RS09485:0.1654722150,Glycomyces_tenuis_HY82_RS08445:0.1528648678)100:0.0503293682)97:0.0255452139)100:0.0428072446,(((Kitasatospora_azatica_KCTC_9699_BR98_RS22480:0.1132284724,((Streptomyces_sp._NRRL_S-646_IH68_RS0124775:0.0578918121,Streptomyces_violaceorubidus_IE94_RS0109005:0.0335839863)100:0.0183146764,Streptomyces_cyaneogriseus_subsp._noncyanogenus_TU94_RS16430:0.0254102537)100:0.0776978160)100:0.0667101187,(((((Microbacterium_telephonicum_C7474_RS00665:0.1442004360,Curtobacterium_sp._MCBA15_008_BIU96_RS05805:0.1510957580)100:0.0566574159,(Kocuria_flava_AS188_RS02835:0.1051686994,Pseudarthrobacter_chlorophenolicus_A6_ACHL_RS00040:0.1820834582)100:0.0447104345)100:0.0285241029,Demequina_aestuarii_AOP72_RS12685:0.2109287416)99:0.0231228766,(Neoactinobaculum_massilliense_EIH27_RS07030:0.3302892556,Bifidobacterium_xylocopae_CRD59_RS02720:0.2763237486)100:0.0823861918)87:0.0328797976,Jiangella_aurantiaca_E1262_RS02950:0.2323952779)86:0.0247559285)84:0.0282633375,(Nonomuraea_lactucae_DQW85_RS20585:0.1153969945,Microtetraspora_niveoalba_AWQ70_RS10795:0.1004840300)100:0.1001978243)84:0.0288432796)100:0.1714630680)96:0.0419874069,Thermus_thermamylovorans_ETP66_RS05875:0.4652951690)79:0.0211138855,(((Rosistilla_oblonga_CA51_RS05145:0.1908600310,Rubripirellula_tenax_Poly51_RS07160:0.2283012648)100:0.2890187397,Planctomycetes_bacterium_Poly30_Poly30_RS27465:0.3331812134)100:0.0953475727,NC_013967.1_1443314-1445902:0.3798321413)80:0.0343310987)95:0.0283295500,((((((Veillonella_tobetsuensis_VEI_RS08920:0.5591185205,Dendrosporobacter_quercicolus_BLR06_RS15410:0.3472658267)99:0.0999379953,Selenomonas_massiliensis_C8273_RS00950:0.2696316373)97:0.0719281369,((Effusibacillus_pohliae_DSM_22757_C230_RS0107410:0.2360581445,Thermoactinomyces_sp._AS95_AYX07_RS08560:0.3900194427)100:0.0518277696,(Paenibacillus_sophorae_BMX71_RS22350:0.2619772340,(Paenibacillus_sp._A3_QJ48_RS19470:0.0154482399,Paenibacillus_elgii_AV654_RS14060:0.0506539335)100:0.1704120353)100:0.1229595782)100:0.1186659832)96:0.0507511780,Abditibacterium_utsteinense_B1R32_RS07200:0.5654092889)98:0.0609470881,(((Leptolyngbya_sp._PCC_6406_LEP6406_RS0209300:0.6970581213,Synechococcus_sp._KORDI-100_KR100_RS05465:0.4393527657)100:0.1078683907,Dictyobacter_alpinus_EL633_RS18500:1.1796723388)95:0.0584798644,(Candidatus_Saccharimonas_aalborgensis_L336_RS03530:0.4274154533,Candidatus_Nanoperiomorbus_periodonticus_G51EAM_RS02490:0.2960437348)100:0.3649202498)92:0.0486007742)70:0.0294351387,(Raoultibacter_timonensis_C1722_RS16175:0.1753055099,Slackia_faecicanis_DMP07_RS08100:0.1422614487)100:0.2805240214)94:0.0288632495)100:0.0535046100,((((Erythrobacter_longus_EH31_RS01990:0.2681645488,Novosphingobium_ginsenosidimutans_FRF71_RS13450:0.1449137805)100:0.0570783985,Tsuneonella_amylolytica_D4766_RS00125:0.2051215947)100:0.0588057401,Sphingomonas_naasensis_E5A74_RS01510:0.1325814829)100:0.1522641434,((((Rhodobacter_capsulatus_FBT96_RS18405:0.0804325289,Rhodobacter_aestuarii_BW967_RS08725:0.1445955100)100:0.0852284076,Gemmobacter_aquaticus_FQU74_RS08795:0.1663963417)99:0.0344218497,Nioella_nitratireducens_BKY27_RS14115:0.1655018117)100:0.1883477383,(((Brucella_sp._09RB8910_BKD02_RS11930:0.1351308725,Hyphomicrobiales_bacterium_DUI55_RS18260:0.1793524471)100:0.0804784110,(Hyphomicrobiales_bacterium_DUF12_RS10060:0.0887766289,Hyphomicrobiales_bacterium_DTX57_RS17545:0.1020899165)100:0.0825986976)100:0.1247690207,Methylorubrum_salsuginis_BM140_RS14620:0.1626675726)100:0.0497132561)93:0.0388103117)100:0.1460317084)100:0.0941626767,(((Derxia_gummosa_DSM_723_H566_RS0107795:0.1786068694,((Burkholderia_sp._WAC0059_CY652_RS14380:0.0784738506,Paraburkholderia_nodosa_BFD71_RS07515:0.0823343586)100:0.0330761158,Burkholderia_latens_WK25_RS04920:0.0656846251)100:0.0777961697)76:0.0231376729,(Neopusillimonas_maritima_CJP73_RS14550:0.3041422881,Duganella_sacchari_BUA36_RS20620:0.1805706381)83:0.0324601845)58:0.0154979920,(Tepidimonas_ignava_Tigna_RS10370:0.1122797551,Comamonas_testosteroni_DZC30_RS08385:0.1375742628)100:0.0592414934)100:0.1454315624)99:0.0531481748,Stenotrophomonas_sp._HMWF003_DBR34_RS17970:0.2394707620)100:0.0468906618,((Halomonas_sp._BC04_Q427_RS04460:0.2117479367,Gammaproteobacteria_bacterium_LSUCC0057_E3W66_RS02135:0.2879836414)60:0.0366402816,((Pseudomonas_sp._NBRC_111124_APH28_RS10150:0.0913304247,((Pseudomonas_trivialis_AA957_RS05955:0.0725784108,Pseudomonas_sp._LD120_PLD_RS09200:0.0842858112)100:0.0569565080,Pseudomonas_cichorii_D2G06_RS04465:0.1040621278)100:0.0417679618)100:0.0552409589,Pseudomonas_jinjuensis_BLR75_RS00050:0.0802767904)100:0.1070069299)100:0.0375365925)100:0.1869017723,Chimaeribacter_coloradensis_CYR32_RS12505:0.0724846639)100:0.0891619458,Pantoea_coffeiphila_CQW29_RS03365:0.1143629155)99:0.0560007633,(((((((((((((((Aliarcobacter_butzleri_7h1h_A7H1H_RS08450:0.1977227167,((Helicobacter_cetorum_C6H25_RS07795:0.3081923940,(Helicobacter_saguini_LS64_RS09350:0.3727155927,Helicobacter_anseris_CQA57_RS06555:0.2251785070)100:0.0494316161)100:0.0364087943,Helicobacter_sp._11-8110_CCY98_RS00745:0.2122580763)100:0.1117357647)100:0.0565083350,Caminibacter_pacificus_C6V80_RS03605:0.3465949681)100:0.1121032761,Mycoplasmopsis_canis_UFG4_MCANUFG4_RS02000:0.4781280170)73:0.0361103514,((((((Peptoniphilus_sp._BV3C26_HMPREF1253_RS01780:0.2613455408,Clostridiales_bacterium_SIT11_BN2668_RS05275:0.4851264920)100:0.0790736490,Anaerococcus_vaginalis_FXY83_RS06935:0.3091766525)100:0.0795560568,Eubacterium_ventriosum_ATCC_27560_EUBVEN_RS06805:0.4308330995)94:0.0343137320,(Fervidicella_metallireducens_AeB_Q428_RS06385:0.2371024379,Clostridium_haemolyticum_NCTC_8350_Z961_RS08595:0.2194962363)100:0.1003585738)95:0.0366887923,Thermodesulfovibrio_sp._N1_THER_RS00860:0.4511764671)40:0.0249494808,((Dictyoglomus_sp._ob1-4_AXA78_RS06030:0.3245522327,Thermovirga_lienii_DSM_17291_TLIE_RS01960:0.8404920110)78:0.1185698856,(Fusobacterium_massiliense_FY437_RS03905:0.2547560638,Sneathia_vaginalis_VC03_RS01570:0.2785503915)100:0.1391409524)39:0.0440705972)46:0.0255687415)38:0.0184089285,(Candidatus_Phytoplasma_pini_MDPP_RS00290:0.4341932061,Borreliella_turdi_DB707_RS01150:0.5183574145)96:0.0968953648)72:0.0167398886,Denitrovibrio_acetiphilus_DSM_12809_DACET_RS14495:0.6641889946)72:0.0169243873,(((((((((Chryseobacterium_daeguense_DSM_19388_H560_RS0120325:0.2148504576,Elizabethkingia_meningoseptica_BMF97_RS08350:0.2159381998)100:0.2100926984,((Bizionia_myxarmorum_ES674_RS11510:0.2270147634,Polaribacter_irgensii_23-P_PI23P_RS09095:0.2594164746)99:0.0491542380,(Flavobacterium_pectinovorum_EAH81_RS04900:0.1076597877,Flavobacterium_tiangeerense_IQ05_RS09620:0.1670766281)100:0.1985606707)100:0.0950887324)99:0.0951497287,((Hymenobacter_nivis_EAH73_RS11405:0.7874954001,(Emticicia_sp._TH156_C0V77_RS04400:0.3379615496,Dyadobacter_koreensis_BMY70_RS06870:0.3385871759)100:0.2176796958)92:0.1284176273,Algoriphagus_kandeliae_E4S40_RS03970:0.2846436635)92:0.1239005226)96:0.1135431081,Puniceicoccaceae_bacterium_GN221_RS04825:0.5890070577)97:0.6225288663,Cytobacillus_massiliigabonensis_C1726_RS15755:1.0275045378)91:0.1963998806,((((Salinicoccus_sediminis_WN59_RS02230:0.4758574361,Anaerolactibacter_massiliensis_C7E00_RS10205:0.7060559772)61:0.1545842178,Macrococcus_hajekii_ERX37_RS03030:0.3934459373)60:0.0730478278,Shouchella_lonarensis_BLT29_RS04120:0.4633445700)100:0.1218898614,Paenibacillus_sp._Soil750_ASL11_RS24600:0.5109710123)99:0.2345870197)88:0.0482347795,Clostridium_oryzae_CLORY_RS12775:0.6661318528)86:0.0378428261,Clostridium_sp._HBUAS56010_FAY33_RS01230:0.8307678737)97:0.0528669773,Gardnerella_vaginalis_ATCC_14019_HMPREF0421_20619:1.0472945842)56:0.0351908404)79:0.0341310490,((((Lactiplantibacillus_mudanjiangensis_E0E27_RS01085:0.2985854529,Enterococcus_florum_NRIC_RS01415:0.2658298001)100:0.2344339264,((Anoxybacillus_suryakundensis_ASC42_RS05435:0.2267238334,Cytobacillus_dafuensis_FSZ17_RS00035:0.2063194655)84:0.0481588485,(Bacillus_anthracis_CN907_RS09965:0.1988886100,Terribacillus_goriensis_GZ22_RS11300:0.3696033890)84:0.0469645773)100:0.0736896964)100:0.1268792482,Candidatus_Marinamargulisbacteria_bacterium_SCGC_AG-439-L15_GO733_RS01840:0.5286444246)99:0.0578761400,(((((Salinimicrobium_sediminis_CRO16_RS08080:0.2810685819,Formosa_sediminum_FNB79_RS16890:0.1411934629)100:0.0680045319,(Flavobacterium_sp._J27_CX675_RS18805:0.1496130872,Flavobacterium_sp._123_C8C88_RS00325:0.1848769688)100:0.0561975173)100:0.0699863808,Chryseobacterium_indologenes_FE904_RS03835:0.3859485313)95:0.0506046918,((Bacteroidales_bacterium_KHT7_BLS88_RS10810:0.5477923231,((Mucilaginibacter_limnophilus_EOD41_RS09730:0.2539962120,Sphingobacterium_corticibacter_DC487_RS12965:0.2803961242)100:0.0820729061,Pontibacter_arcticus_DP923_RS08250:0.3774972362)100:0.0728889658)52:0.0472332360,Arachidicoccus_ginsenosidivorans_FSB73_RS15840:0.4693541003)70:0.0779192980)100:0.1265256269,Treponema_sp._C6A8_T530_RS0106525:0.7070885961)99:0.0700438623)51:0.0249351946)79:0.0520639220,(Rickettsia_typhi_str._Wilmington_RT_RS00985:0.3145742952,Wolbachia_endosymbiont_of_Drosophila_ananassae_EA652_RS05940:0.4581214271)100:0.1796316955)100:0.1002821887,Francisella_philomiragia_LA55_RS08470:0.3925730052)99:0.0727700272,Legionella_steigerwaltii_DYH40_RS07600:0.3467828598)97:0.0514899977,((Buchnera_aphidicola__Aphis_nerii__D9V64_RS00915:0.1990420511,Wigglesworthia_glossinidia_endosymbiont_of_Glossina_brevipalpis_WGL_RS02465:0.2800242825)100:0.1044363293,Candidatus_Erwinia_haradaeae_E4V04_RS00625:0.2858222705)98:0.1020614594)100:0.1131559347,Saccharobesus_litoralis_C2869_RS05610:0.2185015885)99:0.0564333185,Vibrio_profundi_ELZ11_RS03770:0.2479694445)100:0.1542722477,Xenorhabdus_ehlersii_BDE27_RS10140:0.1417405861)100:0.1724446003);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t alineamiento_concatenado_final2.fasta.treefile -m "GTR{1.9906,3.34296,3.07577,3.38564,4.15249}+F{0.251492,0.260721,0.283208,0.204578}+I{0.0164608}+R7{0.0421098,0.034481,0.0515571,0.124499,0.0833578,0.262041,0.119316,0.483263,0.196389,0.792697,0.238151,1.24477,0.252658,1.82264}" --length 7035
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s alineamiento_concatenado_final2.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s alineamiento_concatenado_final2.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Oct 31 09:25:23 2025
+Total CPU time used: 5310.330943 seconds (1h:28m:30s)
+Total wall-clock time used: 5342.77285 seconds (1h:29m:2s)
+
